@@ -1,0 +1,71 @@
+{
+    "json_format": {
+        "type": "reg_config",
+        "version": "2.0"
+    },
+    "application": {
+        "name": "MEMS Studio",
+        "version": "2.1.1"
+    },
+    "date": "2025-07-07 16:44:48",
+    "sensors": [
+        {
+            "name": [ "LSM6DSV16X" ],
+            "configuration": [
+                { "type": "write", "address": "0x01", "data": "0x00" },
+                { "type": "write", "address": "0x02", "data": "0x23" },
+                { "type": "write", "address": "0x03", "data": "0x00" },
+                { "type": "write", "address": "0x06", "data": "0x00" },
+                { "type": "write", "address": "0x07", "data": "0x00" },
+                { "type": "write", "address": "0x08", "data": "0x00" },
+                { "type": "write", "address": "0x09", "data": "0x00" },
+                { "type": "write", "address": "0x0A", "data": "0x00" },
+                { "type": "write", "address": "0x0B", "data": "0x00" },
+                { "type": "write", "address": "0x0C", "data": "0x00" },
+                { "type": "write", "address": "0x0D", "data": "0x00" },
+                { "type": "write", "address": "0x0E", "data": "0x00" },
+                { "type": "write", "address": "0x10", "data": "0x03" },
+                { "type": "write", "address": "0x11", "data": "0x00" },
+                { "type": "write", "address": "0x12", "data": "0x44" },
+                { "type": "write", "address": "0x13", "data": "0x00" },
+                { "type": "write", "address": "0x14", "data": "0x00" },
+                { "type": "write", "address": "0x15", "data": "0x00" },
+                { "type": "write", "address": "0x16", "data": "0x00" },
+                { "type": "write", "address": "0x17", "data": "0x00" },
+                { "type": "write", "address": "0x18", "data": "0x00" },
+                { "type": "write", "address": "0x19", "data": "0x00" },
+                { "type": "write", "address": "0x50", "data": "0x00" },
+                { "type": "write", "address": "0x51", "data": "0x0E" },
+                { "type": "write", "address": "0x54", "data": "0x04" },
+                { "type": "write", "address": "0x55", "data": "0x00" },
+                { "type": "write", "address": "0x56", "data": "0x00" },
+                { "type": "write", "address": "0x57", "data": "0x00" },
+                { "type": "write", "address": "0x58", "data": "0x00" },
+                { "type": "write", "address": "0x59", "data": "0x00" },
+                { "type": "write", "address": "0x5A", "data": "0x00" },
+                { "type": "write", "address": "0x5B", "data": "0x00" },
+                { "type": "write", "address": "0x5C", "data": "0x00" },
+                { "type": "write", "address": "0x5D", "data": "0x00" },
+                { "type": "write", "address": "0x5E", "data": "0x00" },
+                { "type": "write", "address": "0x5F", "data": "0x00" },
+                { "type": "write", "address": "0x62", "data": "0x00" },
+                { "type": "write", "address": "0x63", "data": "0x00" },
+                { "type": "write", "address": "0x64", "data": "0x00" },
+                { "type": "write", "address": "0x65", "data": "0x00" },
+                { "type": "write", "address": "0x66", "data": "0x00" },
+                { "type": "write", "address": "0x67", "data": "0x00" },
+                { "type": "write", "address": "0x68", "data": "0x00" },
+                { "type": "write", "address": "0x69", "data": "0x00" },
+                { "type": "write", "address": "0x6A", "data": "0x00" },
+                { "type": "write", "address": "0x6B", "data": "0x00" },
+                { "type": "write", "address": "0x6F", "data": "0x00" },
+                { "type": "write", "address": "0x70", "data": "0x00" },
+                { "type": "write", "address": "0x71", "data": "0x00" },
+                { "type": "write", "address": "0x72", "data": "0x00" },
+                { "type": "write", "address": "0x73", "data": "0x00" },
+                { "type": "write", "address": "0x74", "data": "0x00" },
+                { "type": "write", "address": "0x75", "data": "0x00" }
+            ]
+        }
+    ]
+}

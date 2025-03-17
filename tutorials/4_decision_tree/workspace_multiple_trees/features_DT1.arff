@@ -1,0 +1,31 @@
+@relation 'MLC'
+
+@attribute F2_MEAN_ACC_Z numeric
+@attribute class {face_down,face_up}
+
+@data
+-0.944336, face_down
+-0.935547, face_down
+-0.949707, face_down
+-0.966797, face_down
+-0.93457, face_down
+-0.962402, face_down
+-0.95459, face_down
+-0.931641, face_down
+-0.891602, face_down
+-0.920898, face_down
+-0.935547, face_down
+-0.937012, face_down
+-0.92627, face_down
+0.961914, face_up
+0.968262, face_up
+0.91748, face_up
+0.971191, face_up
+0.955566, face_up
+0.976563, face_up
+0.951172, face_up
+0.932617, face_up
+0.958008, face_up
+0.925781, face_up
+0.958984, face_up
+0.963379, face_up

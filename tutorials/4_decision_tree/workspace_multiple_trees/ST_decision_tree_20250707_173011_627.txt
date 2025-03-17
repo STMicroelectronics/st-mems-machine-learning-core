@@ -1,0 +1,30 @@
+F2_MEAN_ACC_Z <= 0.012939 : face_down (13)
+F2_MEAN_ACC_Z > 0.012939 : face_up (12)
+
+Number of Leaves: 2
+Size of the tree: 3
+
+Classes:
+=> face_down, face_up
+
+Features:
+=> F1_MEAN_ACC_Z
+
+=============== Complete trainging data statistics ===============
+
+Confusion Matrix:
+          face_down	face_up	  <- classified as
+face_down 13	0
+face_up   0	12
+
+Total Number of Instances: 25
+Correctly Classified Instances: 25
+Incorrectly Classified Instances: 0
+
+Accuracy:       100.00 %
+Cohen's kappa:  100.00 %
+
+Report:   precision	recall	support
+face_down 1.00	1.00	13
+face_up   1.00	1.00	12
+avg/total 1.00	1.00	25

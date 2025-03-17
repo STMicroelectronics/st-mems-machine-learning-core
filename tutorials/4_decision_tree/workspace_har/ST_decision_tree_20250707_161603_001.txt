@@ -1,0 +1,52 @@
+F14_ABS_MEAN_ACC_V <= 1.340820
+|   F14_ABS_MEAN_ACC_V <= 1.008300
+|   |   F15_ABS_MINIMUM_ACC_V <= 0.505737 : walking (8)
+|   |   F15_ABS_MINIMUM_ACC_V > 0.505737
+|   |   |   F13_MAXIMUM_ACC_Z <= 0.857910 : stationary (353/3.0)
+|   |   |   F13_MAXIMUM_ACC_Z > 0.857910
+|   |   |   |   F1_MEAN_ACC_X <= -0.172669 : cycling (14)
+|   |   |   |   F1_MEAN_ACC_X > -0.172669 : stationary (7)
+|   F14_ABS_MEAN_ACC_V > 1.008300
+|   |   F10_MEAN_ACC_Z <= 0.425537
+|   |   |   F7_MEAN_ACC_Y <= 0.225769
+|   |   |   |   F5_MINIMUM_ACC_X <= -1.234865
+|   |   |   |   |   F7_MEAN_ACC_Y <= 0.164124 : cycling (24)
+|   |   |   |   |   F7_MEAN_ACC_Y > 0.164124 : stationary (1)
+|   |   |   |   F5_MINIMUM_ACC_X > -1.234865 : stationary (3)
+|   |   |   F7_MEAN_ACC_Y > 0.225769
+|   |   |   |   F15_ABS_MINIMUM_ACC_V <= 0.663574 : walking (342)
+|   |   |   |   F15_ABS_MINIMUM_ACC_V > 0.663574 : stationary (15)
+|   |   F10_MEAN_ACC_Z > 0.425537 : cycling (359/32.0)
+F14_ABS_MEAN_ACC_V > 1.340820 : running (381)
+
+Number of Leaves: 11
+Size of the tree: 21
+
+Classes:
+=> stationary, walking, running, cycling
+
+Features:
+=> F1_MEAN_ACC_X, F2_VARIANCE_ACC_X, F3_ENERGY_ACC_X, F4_PEAK_TO_PEAK_ACC_X, F5_MINIMUM_ACC_X, F6_MAXIMUM_ACC_X, F7_MEAN_ACC_Y, F8_MINIMUM_ACC_Y, F9_MAXIMUM_ACC_Y, F10_MEAN_ACC_Z, F11_ENERGY_ACC_Z, F12_MINIMUM_ACC_Z, F13_MAXIMUM_ACC_Z, F14_ABS_MEAN_ACC_V, F15_ABS_MINIMUM_ACC_V
+
+=============== Complete trainging data statistics ===============
+
+Confusion Matrix:
+           stationary	walking	running	cycling	  <- classified as
+stationary 376	0	0	3
+walking    0	350	0	29
+running    0	0	381	0
+cycling    3	0	0	365
+
+Total Number of Instances: 1507
+Correctly Classified Instances: 1472
+Incorrectly Classified Instances: 35
+
+Accuracy:       97.68 %
+Cohen's kappa:  96.90 %
+
+Report:    precision	recall	support
+stationary 0.99	0.99	379
+walking    1.00	0.92	379
+running    1.00	1.00	381
+cycling    0.92	0.99	368
+avg/total  0.98	0.98	1507

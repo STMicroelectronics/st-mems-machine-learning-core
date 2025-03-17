@@ -1,0 +1,160 @@
+{
+    "accelerometer_fs": "2 g",
+    "accelerometer_odr": "30 Hz",
+    "config_output_filename": "mlc.json",
+    "datalogs": [
+        {
+            "filename": "../datalogs/intensity_0/Data_Log_25_02_17_13_06_09.csv",
+            "label": "intensity_0"
+        },
+        {
+            "filename": "../datalogs/intensity_0/Data_Log_25_02_17_13_06_47.csv",
+            "label": "intensity_0"
+        },
+        {
+            "filename": "../datalogs/intensity_0/Data_Log_25_02_17_13_07_24.csv",
+            "label": "intensity_0"
+        },
+        {
+            "filename": "../datalogs/intensity_0/Data_Log_25_02_17_13_07_59.csv",
+            "label": "intensity_0"
+        },
+        {
+            "filename": "../datalogs/intensity_1/Data_Log_25_02_17_13_10_58.csv",
+            "label": "intensity_1"
+        },
+        {
+            "filename": "../datalogs/intensity_1/Data_Log_25_02_17_13_11_39.csv",
+            "label": "intensity_1"
+        },
+        {
+            "filename": "../datalogs/intensity_1/Data_Log_25_02_17_13_12_09.csv",
+            "label": "intensity_1"
+        },
+        {
+            "filename": "../datalogs/intensity_1/Data_Log_25_02_17_13_12_44.csv",
+            "label": "intensity_1"
+        },
+        {
+            "filename": "../datalogs/intensity_2/Data_Log_25_02_17_13_13_20.csv",
+            "label": "intensity_2"
+        },
+        {
+            "filename": "../datalogs/intensity_2/Data_Log_25_02_17_13_14_02.csv",
+            "label": "intensity_2"
+        },
+        {
+            "filename": "../datalogs/intensity_2/Data_Log_25_02_17_13_14_36.csv",
+            "label": "intensity_2"
+        },
+        {
+            "filename": "../datalogs/intensity_2/Data_Log_25_02_17_13_15_22.csv",
+            "label": "intensity_2"
+        },
+        {
+            "filename": "../datalogs/face_down/Data_Log_25_02_24_11_47_17.csv",
+            "label": "face_down"
+        },
+        {
+            "filename": "../datalogs/face_down/Data_Log_25_02_24_11_47_50.csv",
+            "label": "face_down"
+        },
+        {
+            "filename": "../datalogs/face_down/Data_Log_25_02_24_11_48_09.csv",
+            "label": "face_down"
+        },
+        {
+            "filename": "../datalogs/face_up/Data_Log_25_02_24_11_45_34.csv",
+            "label": "face_up"
+        },
+        {
+            "filename": "../datalogs/face_up/Data_Log_25_02_24_11_46_22.csv",
+            "label": "face_up"
+        },
+        {
+            "filename": "../datalogs/face_up/Data_Log_25_02_24_11_46_47.csv",
+            "label": "face_up"
+        }
+    ],
+    "decision_tree_count": "2",
+    "dectree_features": [
+        "F1_VARIANCE_ACC_V",
+        "F2_MEAN_ACC_Z"
+    ],
+    "dectrees": [
+        {
+            "filename": "ST_decision_tree_20250707_172911_545.txt",
+            "metaclassifier": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "results": [
+                {
+                    "label": "intensity_0",
+                    "value": 0
+                },
+                {
+                    "label": "intensity_1",
+                    "value": 4
+                },
+                {
+                    "label": "intensity_2",
+                    "value": 8
+                }
+            ]
+        },
+        {
+            "filename": "ST_decision_tree_20250707_173011_627.txt",
+            "metaclassifier": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "results": [
+                {
+                    "label": "face_up",
+                    "value": 0
+                },
+                {
+                    "label": "face_down",
+                    "value": 4
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "feature_name": "VARIANCE",
+            "fifo": "false",
+            "input": "Acc_V",
+            "signed": true
+        },
+        {
+            "feature_name": "MEAN",
+            "fifo": "false",
+            "input": "Acc_Z",
+            "signed": true
+        }
+    ],
+    "features_output_filename": "features.arff",
+    "filters": [
+    ],
+    "gyroscope_fs": "2000 dps",
+    "gyroscope_odr": "30 Hz",
+    "input_type": "accelerometer_only",
+    "json_format": {
+        "type": "mlc_settings",
+        "version": "1.0"
+    },
+    "max_dectrees": 4,
+    "max_results_per_dt": 16,
+    "mlc_odr": "30 Hz",
+    "name": "LSM6DSV16X",
+    "subgroups_per_dt": 4,
+    "thresh_accu_to_take_default": 0.05,
+    "thresh_n_percentage_default": 0.05,
+    "window_length": "60"
+}

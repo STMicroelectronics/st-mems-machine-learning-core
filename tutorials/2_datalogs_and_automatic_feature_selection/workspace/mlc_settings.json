@@ -1,0 +1,337 @@
+{
+    "accelerometer_fs": "8 g",
+    "accelerometer_odr": "30 Hz",
+    "datalogs": [
+        {
+            "filename": "../datalogs/0_stationary/log_0.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_1.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_2.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_3.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_4.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_5.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_6.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_7.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_8.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_9.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_10.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_11.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/0_stationary/log_12.csv",
+            "label": "stationary"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_0.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_1.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_2.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_3.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_4.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_5.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_6.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_7.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_8.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_9.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_10.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_11.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_12.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/1_walking/log_13.csv",
+            "label": "walking"
+        },
+        {
+            "filename": "../datalogs/2_running/log_0.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_1.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_2.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_3.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_4.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_5.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_6.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_7.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_8.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_9.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_10.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_11.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/2_running/log_12.csv",
+            "label": "running"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_0.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_1.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_2.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_3.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_4.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_5.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_6.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_7.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_8.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_9.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_10.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_11.csv",
+            "label": "cycling"
+        },
+        {
+            "filename": "../datalogs/3_cycling/log_12.csv",
+            "label": "cycling"
+        }
+    ],
+    "decision_tree_count": "1",
+    "dectrees": [
+        {
+            "filename": "",
+            "results": [
+                {
+                    "label": "stationary",
+                    "value": 0
+                },
+                {
+                    "label": "walking",
+                    "value": 4
+                },
+                {
+                    "label": "running",
+                    "value": 8
+                },
+                {
+                    "label": "cycling",
+                    "value": 12
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "feature_name": "MEAN",
+            "input": "Acc_X",
+            "signed": true
+        },
+        {
+            "feature_name": "VARIANCE",
+            "input": "Acc_X",
+            "signed": true
+        },
+        {
+            "feature_name": "ENERGY",
+            "input": "Acc_X",
+            "signed": true
+        },
+        {
+            "feature_name": "PEAK_TO_PEAK",
+            "input": "Acc_X",
+            "signed": true
+        },
+        {
+            "feature_name": "MINIMUM",
+            "input": "Acc_X",
+            "signed": true
+        },
+        {
+            "feature_name": "MAXIMUM",
+            "input": "Acc_X",
+            "signed": true
+        },
+        {
+            "feature_name": "MEAN",
+            "input": "Acc_Y",
+            "signed": true
+        },
+        {
+            "feature_name": "MINIMUM",
+            "input": "Acc_Y",
+            "signed": true
+        },
+        {
+            "feature_name": "MAXIMUM",
+            "input": "Acc_Y",
+            "signed": true
+        },
+        {
+            "feature_name": "MEAN",
+            "input": "Acc_Z",
+            "signed": true
+        },
+        {
+            "feature_name": "ENERGY",
+            "input": "Acc_Z",
+            "signed": true
+        },
+        {
+            "feature_name": "MINIMUM",
+            "input": "Acc_Z",
+            "signed": true
+        },
+        {
+            "feature_name": "MAXIMUM",
+            "input": "Acc_Z",
+            "signed": true
+        },
+        {
+            "feature_name": "MEAN",
+            "input": "Acc_V",
+            "signed": false
+        },
+        {
+            "feature_name": "MINIMUM",
+            "input": "Acc_V",
+            "signed": false
+        }
+    ],
+    "features_output_filename": "features.arff",
+    "filters": [
+    ],
+    "gyroscope_fs": "2000 dps",
+    "gyroscope_odr": "30 Hz",
+    "input_type": "accelerometer_only",
+    "json_format": {
+        "type": "mlc_settings",
+        "version": "1.0"
+    },
+    "max_dectrees": 4,
+    "max_results_per_dt": 16,
+    "mlc_odr": "30 Hz",
+    "name": "LSM6DSV16X",
+    "subgroups_per_dt": 4,
+    "thresh_accu_to_take_default": 0.05,
+    "thresh_n_percentage_default": 0.05,
+    "window_length": "70"
+}

@@ -1,0 +1,34 @@
+F1_VARIANCE_ACC_V <= 0.169434
+|   F1_VARIANCE_ACC_V <= 0.010742 : intensity_0 (30/2.0)
+|   F1_VARIANCE_ACC_V > 0.010742 : intensity_1 (25)
+F1_VARIANCE_ACC_V > 0.169434 : intensity_2 (25)
+
+Number of Leaves: 3
+Size of the tree: 5
+
+Classes:
+=> intensity_0, intensity_1, intensity_2
+
+Features:
+=> F1_VARIANCE_ACC_V
+
+=============== Complete trainging data statistics ===============
+
+Confusion Matrix:
+            intensity_0	intensity_1	intensity_2	  <- classified as
+intensity_0 28	0	0
+intensity_1 2	25	0
+intensity_2 0	0	25
+
+Total Number of Instances: 80
+Correctly Classified Instances: 78
+Incorrectly Classified Instances: 2
+
+Accuracy:       97.50 %
+Cohen's kappa:  96.24 %
+
+Report:     precision	recall	support
+intensity_0 0.93	1.00	28
+intensity_1 1.00	0.93	27
+intensity_2 1.00	1.00	25
+avg/total   0.98	0.97	80
