@@ -7,7 +7,6 @@
 		"name": "MLC Tool",
 		"version": "2.3.7"
 	},
-	"date": "2025-06-17 15:37:13",
 	"description": "Generated sensor configuration for MLC core",
 	"sensors": [
 		{

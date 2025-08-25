@@ -144,7 +144,7 @@ static const struct mems_conf_application tennis_dsv32x_mlc_conf_application = {
     .version = "2.3.7"
 };
 
-static const char *const tennis_dsv32x_mlc_conf_date = "2025-06-17 15:37:13";
+static const char *const tennis_dsv32x_mlc_conf_date = NULL;
 
 /* Sensor names */
 
