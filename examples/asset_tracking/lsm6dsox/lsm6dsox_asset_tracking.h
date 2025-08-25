@@ -229,7 +229,7 @@ static const struct mems_conf_op lsm6dsox_asset_tracking_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x04, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x05, .data = 0x11 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x17, .data = 0x80 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x17, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x3F },

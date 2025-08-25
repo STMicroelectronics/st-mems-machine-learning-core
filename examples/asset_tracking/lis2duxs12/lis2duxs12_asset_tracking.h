@@ -332,7 +332,7 @@ static const struct mems_conf_op lis2duxs12_asset_tracking_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x3F, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x14, .data = 0x63 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x3F, .data = 0x80 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x17, .data = 0x80 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x17, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x04, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x05, .data = 0x11 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x01 },
