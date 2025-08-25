@@ -78,7 +78,6 @@ struct mems_conf_application {
     char *version;
 };
 
-
 struct mems_conf_result {
     uint8_t code;
     char *label;
@@ -136,23 +135,21 @@ struct mems_conf_mlc_identifier_list {
 
 #endif /* MEMS_CONF_METADATA_SHARED_TYPES */
 
-/* Application */
+static const char *const asm330lhhx_tow_format_version = "2.0";
+
+static const char *const asm330lhhx_tow_description = NULL;
 
 static const struct mems_conf_application asm330lhhx_tow_application = {
     .name = "Configuration Converter Tool",
     .version = "1.0"
 };
 
-static const char *const asm330lhhx_tow_date = "2025-01-27 11:15:01";
-
-static const char *const 2.0_format_version = "2.0";
-
-static const char *const 2.0_description = NULL;
+static const char *const asm330lhhx_tow_date = NULL;
 
 /* Sensor names */
 
 static const char *const asm330lhhx_tow_names_0[] = {
-    "asm330lhhx"
+    "ASM330LHHX"
 };
 
 static const struct mems_conf_name_list asm330lhhx_tow_name_lists[ASM330LHHX_TOW_SENSORS_NUM] = {
@@ -523,9 +520,9 @@ static const struct mems_conf_output asm330lhhx_tow_outputs_0[] = {
     {
         .name = "Decision tree #1: ",
         .core = MEMS_CONF_OUTPUT_CORE_MLC,
-        .type = MEMS_CONF_OUTPUT_TYPE_N/A,
-        .len = N/A,
-        .reg_addr = N/A,
+        .type = MEMS_CONF_OUTPUT_TYPE_UINT8_T,
+        .len = 1,
+        .reg_addr = 0x70,
         .reg_name = "MLC0_SRC",
         .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(asm330lhhx_tow_results_0_0),
         .results = asm330lhhx_tow_results_0_0
@@ -533,9 +530,9 @@ static const struct mems_conf_output asm330lhhx_tow_outputs_0[] = {
     {
         .name = "Decision tree #2: ",
         .core = MEMS_CONF_OUTPUT_CORE_MLC,
-        .type = MEMS_CONF_OUTPUT_TYPE_N/A,
-        .len = N/A,
-        .reg_addr = N/A,
+        .type = MEMS_CONF_OUTPUT_TYPE_UINT8_T,
+        .len = 1,
+        .reg_addr = 0x71,
         .reg_name = "MLC1_SRC",
         .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(asm330lhhx_tow_results_0_1),
         .results = asm330lhhx_tow_results_0_1
@@ -543,9 +540,9 @@ static const struct mems_conf_output asm330lhhx_tow_outputs_0[] = {
     {
         .name = "Decision tree #3: ",
         .core = MEMS_CONF_OUTPUT_CORE_MLC,
-        .type = MEMS_CONF_OUTPUT_TYPE_N/A,
-        .len = N/A,
-        .reg_addr = N/A,
+        .type = MEMS_CONF_OUTPUT_TYPE_UINT8_T,
+        .len = 1,
+        .reg_addr = 0x72,
         .reg_name = "MLC2_SRC",
         .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(asm330lhhx_tow_results_0_2),
         .results = asm330lhhx_tow_results_0_2
@@ -566,4 +563,4 @@ static const struct mems_conf_mlc_identifier_list asm330lhhx_tow_mlc_identifier_
 }
 #endif
 
-#endif // ASM330LHHX_TOW_H
+#endif /* ASM330LHHX_TOW_H */

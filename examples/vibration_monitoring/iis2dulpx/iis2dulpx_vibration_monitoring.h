@@ -78,7 +78,6 @@ struct mems_conf_application {
     char *version;
 };
 
-
 struct mems_conf_result {
     uint8_t code;
     char *label;
@@ -136,23 +135,21 @@ struct mems_conf_mlc_identifier_list {
 
 #endif /* MEMS_CONF_METADATA_SHARED_TYPES */
 
-/* Application */
+static const char *const iis2dulpx_vibration_monitoring_format_version = "2.0";
+
+static const char *const iis2dulpx_vibration_monitoring_description = NULL;
 
 static const struct mems_conf_application iis2dulpx_vibration_monitoring_application = {
     .name = "Configuration Converter Tool",
     .version = "1.0"
 };
 
-static const char *const iis2dulpx_vibration_monitoring_date = "2025-01-27 11:16:50";
-
-static const char *const 2.0_format_version = "2.0";
-
-static const char *const 2.0_description = NULL;
+static const char *const iis2dulpx_vibration_monitoring_date = NULL;
 
 /* Sensor names */
 
 static const char *const iis2dulpx_vibration_monitoring_names_0[] = {
-    "iis2dulpx"
+    "IIS2DULPX"
 };
 
 static const struct mems_conf_name_list iis2dulpx_vibration_monitoring_name_lists[IIS2DULPX_VIBRATION_MONITORING_SENSORS_NUM] = {
@@ -258,9 +255,9 @@ static const struct mems_conf_output iis2dulpx_vibration_monitoring_outputs_0[] 
     {
         .name = "DT1",
         .core = MEMS_CONF_OUTPUT_CORE_MLC,
-        .type = MEMS_CONF_OUTPUT_TYPE_N/A,
-        .len = N/A,
-        .reg_addr = N/A,
+        .type = MEMS_CONF_OUTPUT_TYPE_UINT8_T,
+        .len = 1,
+        .reg_addr = 0x34,
         .reg_name = "MLC1_SRC",
         .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(iis2dulpx_vibration_monitoring_results_0_0),
         .results = iis2dulpx_vibration_monitoring_results_0_0
@@ -274,7 +271,7 @@ static const struct mems_conf_output_list iis2dulpx_vibration_monitoring_output_
 /* MLC identifiers */
 
 static const struct mems_conf_mlc_identifier iis2dulpx_vibration_monitoring_mlc_identifiers_0[] = {
-    { .fifo_tag = N/A, .id = 0x00F0, .label = "F1_ABS_PeakToPeak_on_ACC_V2" }
+    { .fifo_tag = 0x1C, .id = 0x00F0, .label = "F1_ABS_PeakToPeak_on_ACC_V2" }
 };
 
 static const struct mems_conf_mlc_identifier_list iis2dulpx_vibration_monitoring_mlc_identifier_lists[IIS2DULPX_VIBRATION_MONITORING_SENSORS_NUM] = {
@@ -285,4 +282,4 @@ static const struct mems_conf_mlc_identifier_list iis2dulpx_vibration_monitoring
 }
 #endif
 
-#endif // IIS2DULPX_VIBRATION_MONITORING_H
+#endif /* IIS2DULPX_VIBRATION_MONITORING_H */

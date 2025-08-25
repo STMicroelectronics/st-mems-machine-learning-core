@@ -3,14 +3,13 @@
     "type": "reg_config",
     "version": "2.0"
   },
-  "date": "2025-01-27 11:16:25",
   "application": {
     "name": "Configuration Converter Tool",
     "version": "1.0"
   },
   "sensors": [
     {
-      "name": ["iis2dulpx"],
+      "name": ["IIS2DULPX"],
       "configuration": [
         { "type": "write", "address": "0x13", "data": "0x10" },
         { "type": "delay", "data": "5" },
@@ -135,9 +134,9 @@
         {
           "name": "DT1",
           "core": "MLC",
-          "type": "N/A",
-          "len": "N/A",
-          "reg_addr": "N/A",
+          "type": "uint8_t",
+          "len": "1",
+          "reg_addr": "0x34",
           "reg_name": "MLC1_SRC",
           "results": [
             { "code": "0x00", "label": "None" },
@@ -152,32 +151,32 @@
       ],
       "mlc_identifiers": [
         {
-          "fifo_tag": "N/A",
+          "fifo_tag": "0x1C",
           "id": "0x0102",
           "label": "F1_ABS_MEAN_on_ACC_X"
         },
         {
-          "fifo_tag": "N/A",
+          "fifo_tag": "0x1C",
           "id": "0x0104",
           "label": "F2_ABS_MEAN_on_ACC_Y"
         },
         {
-          "fifo_tag": "N/A",
+          "fifo_tag": "0x1C",
           "id": "0x0106",
           "label": "F3_ABS_MEAN_on_ACC_Z"
         },
         {
-          "fifo_tag": "N/A",
+          "fifo_tag": "0x1C",
           "id": "0x0108",
           "label": "F4_MEAN_on_ACC_X"
         },
         {
-          "fifo_tag": "N/A",
+          "fifo_tag": "0x1C",
           "id": "0x010A",
           "label": "F5_MEAN_on_ACC_Y"
         },
         {
-          "fifo_tag": "N/A",
+          "fifo_tag": "0x1C",
           "id": "0x010C",
           "label": "F6_MEAN_on_ACC_Z"
         }

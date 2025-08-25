@@ -3,14 +3,13 @@
     "type": "reg_config",
     "version": "2.0"
   },
-  "date": "2025-01-27 11:15:01",
   "application": {
     "name": "Configuration Converter Tool",
     "version": "1.0"
   },
   "sensors": [
     {
-      "name": ["asm330lhb"],
+      "name": ["ASM330LHB"],
       "configuration": [
         { "type": "write", "address": "0x10", "data": "0x00" },
         { "type": "write", "address": "0x11", "data": "0x00" },
@@ -348,9 +347,9 @@
         {
           "name": "Decision tree #1: ",
           "core": "MLC",
-          "type": "N/A",
-          "len": "N/A",
-          "reg_addr": "N/A",
+          "type": "uint8_t",
+          "len": "1",
+          "reg_addr": "0x70",
           "reg_name": "MLC0_SRC",
           "results": [
             { "code": "0x00", "label": "NoMotion" },
@@ -361,9 +360,9 @@
         {
           "name": "Decision tree #2: ",
           "core": "MLC",
-          "type": "N/A",
-          "len": "N/A",
-          "reg_addr": "N/A",
+          "type": "uint8_t",
+          "len": "1",
+          "reg_addr": "0x71",
           "reg_name": "MLC1_SRC",
           "results": [
             { "code": "0x00", "label": "NoMotionY" },
@@ -374,9 +373,9 @@
         {
           "name": "Decision tree #3: ",
           "core": "MLC",
-          "type": "N/A",
-          "len": "N/A",
-          "reg_addr": "N/A",
+          "type": "uint8_t",
+          "len": "1",
+          "reg_addr": "0x72",
           "reg_name": "MLC2_SRC",
           "results": [
             { "code": "0x00", "label": "NoMotionZ" },
