@@ -9,7 +9,7 @@
   },
   "sensors": [
     {
-      "name": ["iis2iclx"],
+      "name": ["IIS2ICLX"],
       "configuration": [
         { "type": "write", "address": "0x10", "data": "0x00" },
         { "type": "write", "address": "0x11", "data": "0x00" },

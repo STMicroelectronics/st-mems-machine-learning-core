@@ -9,7 +9,7 @@
   },
   "sensors": [
     {
-      "name": ["st1vafe3bx"],
+      "name": ["ST1VAFE3BX"],
       "configuration": [
         { "type": "write", "address": "0x13", "data": "0x10" },
         { "type": "delay", "data": "5" },

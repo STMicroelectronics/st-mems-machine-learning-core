@@ -149,7 +149,7 @@ static const char *const lsm6dsv16bx_motion_intensity_date = NULL;
 /* Sensor names */
 
 static const char *const lsm6dsv16bx_motion_intensity_names_0[] = {
-    "lsm6dsv16bx"
+    "LSM6DSV16BX"
 };
 
 static const struct mems_conf_name_list lsm6dsv16bx_motion_intensity_name_lists[LSM6DSV16BX_MOTION_INTENSITY_SENSORS_NUM] = {

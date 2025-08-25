@@ -149,7 +149,7 @@ static const char *const lsm6dsrx_head_gestures_date = NULL;
 /* Sensor names */
 
 static const char *const lsm6dsrx_head_gestures_names_0[] = {
-    "lsm6dsrx"
+    "LSM6DSRX"
 };
 
 static const struct mems_conf_name_list lsm6dsrx_head_gestures_name_lists[LSM6DSRX_HEAD_GESTURES_SENSORS_NUM] = {

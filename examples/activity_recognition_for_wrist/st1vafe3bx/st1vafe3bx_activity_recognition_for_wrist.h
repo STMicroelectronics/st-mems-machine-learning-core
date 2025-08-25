@@ -149,7 +149,7 @@ static const char *const st1vafe3bx_activity_recognition_for_wrist_date = NULL;
 /* Sensor names */
 
 static const char *const st1vafe3bx_activity_recognition_for_wrist_names_0[] = {
-    "st1vafe3bx"
+    "ST1VAFE3BX"
 };
 
 static const struct mems_conf_name_list st1vafe3bx_activity_recognition_for_wrist_name_lists[ST1VAFE3BX_ACTIVITY_RECOGNITION_FOR_WRIST_SENSORS_NUM] = {

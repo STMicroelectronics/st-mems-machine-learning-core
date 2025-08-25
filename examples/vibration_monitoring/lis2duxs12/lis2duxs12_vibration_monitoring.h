@@ -149,7 +149,7 @@ static const char *const lis2duxs12_vibration_monitoring_date = NULL;
 /* Sensor names */
 
 static const char *const lis2duxs12_vibration_monitoring_names_0[] = {
-    "lis2duxs12"
+    "LIS2DUXS12"
 };
 
 static const struct mems_conf_name_list lis2duxs12_vibration_monitoring_name_lists[LIS2DUXS12_VIBRATION_MONITORING_SENSORS_NUM] = {

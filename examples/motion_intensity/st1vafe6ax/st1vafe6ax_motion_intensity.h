@@ -149,7 +149,7 @@ static const char *const st1vafe6ax_motion_intensity_date = NULL;
 /* Sensor names */
 
 static const char *const st1vafe6ax_motion_intensity_names_0[] = {
-    "st1vafe6ax"
+    "ST1VAFE6AX"
 };
 
 static const struct mems_conf_name_list st1vafe6ax_motion_intensity_name_lists[ST1VAFE6AX_MOTION_INTENSITY_SENSORS_NUM] = {

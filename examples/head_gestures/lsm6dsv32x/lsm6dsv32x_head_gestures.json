@@ -9,7 +9,7 @@
   },
   "sensors": [
     {
-      "name": ["lsm6dsv32x"],
+      "name": ["LSM6DSV32X"],
       "configuration": [
         { "type": "write", "address": "0x10", "data": "0x00" },
         { "type": "write", "address": "0x11", "data": "0x00" },

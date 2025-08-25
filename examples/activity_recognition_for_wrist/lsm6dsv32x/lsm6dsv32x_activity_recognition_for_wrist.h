@@ -149,7 +149,7 @@ static const char *const lsm6dsv32x_activity_recognition_for_wrist_date = NULL;
 /* Sensor names */
 
 static const char *const lsm6dsv32x_activity_recognition_for_wrist_names_0[] = {
-    "lsm6dsv32x"
+    "LSM6DSV32X"
 };
 
 static const struct mems_conf_name_list lsm6dsv32x_activity_recognition_for_wrist_name_lists[LSM6DSV32X_ACTIVITY_RECOGNITION_FOR_WRIST_SENSORS_NUM] = {

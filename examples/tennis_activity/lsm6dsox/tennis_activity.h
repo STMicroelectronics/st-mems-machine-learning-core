@@ -149,7 +149,7 @@ static const char *const tennis_activity_date = NULL;
 /* Sensor names */
 
 static const char *const tennis_activity_names_0[] = {
-    "lsm6dsox"
+    "LSM6DSOX"
 };
 
 static const struct mems_conf_name_list tennis_activity_name_lists[TENNIS_ACTIVITY_SENSORS_NUM] = {

@@ -149,7 +149,7 @@ static const char *const lsm6dso32x_six_d_position_date = NULL;
 /* Sensor names */
 
 static const char *const lsm6dso32x_six_d_position_names_0[] = {
-    "lsm6dso32x"
+    "LSM6DSO32X"
 };
 
 static const struct mems_conf_name_list lsm6dso32x_six_d_position_name_lists[LSM6DSO32X_SIX_D_POSITION_SENSORS_NUM] = {

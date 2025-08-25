@@ -149,7 +149,7 @@ static const char *const lsm6dsv16x_vibration_monitoring_date = NULL;
 /* Sensor names */
 
 static const char *const lsm6dsv16x_vibration_monitoring_names_0[] = {
-    "lsm6dsv16x"
+    "LSM6DSV16X"
 };
 
 static const struct mems_conf_name_list lsm6dsv16x_vibration_monitoring_name_lists[LSM6DSV16X_VIBRATION_MONITORING_SENSORS_NUM] = {

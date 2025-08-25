@@ -149,7 +149,7 @@ static const char *const ism330dhcx_six_d_position_date = NULL;
 /* Sensor names */
 
 static const char *const ism330dhcx_six_d_position_names_0[] = {
-    "ism330dhcx"
+    "ISM330DHCX"
 };
 
 static const struct mems_conf_name_list ism330dhcx_six_d_position_name_lists[ISM330DHCX_SIX_D_POSITION_SENSORS_NUM] = {

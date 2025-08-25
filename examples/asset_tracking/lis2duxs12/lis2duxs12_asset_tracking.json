@@ -9,7 +9,7 @@
   },
   "sensors": [
     {
-      "name": ["lis2duxs12"],
+      "name": ["LIS2DUXS12"],
       "configuration": [
         { "type": "write", "address": "0x14", "data": "0x00" },
         { "type": "write", "address": "0x13", "data": "0x10" },

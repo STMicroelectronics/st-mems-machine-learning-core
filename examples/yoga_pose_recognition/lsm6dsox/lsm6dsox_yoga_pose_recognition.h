@@ -149,7 +149,7 @@ static const char *const lsm6dsox_yoga_pose_recognition_date = NULL;
 /* Sensor names */
 
 static const char *const lsm6dsox_yoga_pose_recognition_names_0[] = {
-    "lsm6dsox"
+    "LSM6DSOX"
 };
 
 static const struct mems_conf_name_list lsm6dsox_yoga_pose_recognition_name_lists[LSM6DSOX_YOGA_POSE_RECOGNITION_SENSORS_NUM] = {

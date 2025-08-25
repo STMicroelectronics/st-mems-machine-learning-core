@@ -149,7 +149,7 @@ static const char *const lsm6dsv80x_activity_recognition_for_mobile_date = NULL;
 /* Sensor names */
 
 static const char *const lsm6dsv80x_activity_recognition_for_mobile_names_0[] = {
-    "lsm6dsv80x"
+    "LSM6DSV80X"
 };
 
 static const struct mems_conf_name_list lsm6dsv80x_activity_recognition_for_mobile_name_lists[LSM6DSV80X_ACTIVITY_RECOGNITION_FOR_MOBILE_SENSORS_NUM] = {

@@ -149,7 +149,7 @@ static const char *const lsm6dsox_gym_activity_recognition_left_date = NULL;
 /* Sensor names */
 
 static const char *const lsm6dsox_gym_activity_recognition_left_names_0[] = {
-    "lsm6dsox"
+    "LSM6DSOX"
 };
 
 static const struct mems_conf_name_list lsm6dsox_gym_activity_recognition_left_name_lists[LSM6DSOX_GYM_ACTIVITY_RECOGNITION_LEFT_SENSORS_NUM] = {

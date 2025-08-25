@@ -149,7 +149,7 @@ static const char *const lis2duxs12_motion_intensity_date = NULL;
 /* Sensor names */
 
 static const char *const lis2duxs12_motion_intensity_names_0[] = {
-    "lis2duxs12"
+    "LIS2DUXS12"
 };
 
 static const struct mems_conf_name_list lis2duxs12_motion_intensity_name_lists[LIS2DUXS12_MOTION_INTENSITY_SENSORS_NUM] = {

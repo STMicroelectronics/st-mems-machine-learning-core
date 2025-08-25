@@ -149,7 +149,7 @@ static const char *const asm330lhbg1_vehicle_stationary_detection_date = NULL;
 /* Sensor names */
 
 static const char *const asm330lhbg1_vehicle_stationary_detection_names_0[] = {
-    "asm330lhbg1"
+    "ASM330LHBG1"
 };
 
 static const struct mems_conf_name_list asm330lhbg1_vehicle_stationary_detection_name_lists[ASM330LHBG1_VEHICLE_STATIONARY_DETECTION_SENSORS_NUM] = {
