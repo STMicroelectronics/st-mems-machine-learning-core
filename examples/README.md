@@ -80,6 +80,136 @@ The SensorTile.box PRO / STWIN.box board and the [ST BLE Sensor](https://www.st.
         - Select mode `Monitoring`.
         - Finally click on the `Start` button and see the live results.
 
+## Examples per device
+
+* ASM330LHB
+	* [tow_detection](./tow_detection/asm330lhb)
+	* [vehicle_stationary_detection](./vehicle_stationary_detection/asm330lhb)
+* ASM330LHBG1
+	* [tow_detection](./tow_detection/asm330lhbg1)
+	* [vehicle_stationary_detection](./vehicle_stationary_detection/asm330lhbg1)
+* ASM330LHHX
+	* [tow_detection](./tow_detection/asm330lhhx)
+	* [vehicle_stationary_detection](./vehicle_stationary_detection/asm330lhhx)
+* ASM330LHHXG1
+	* [tow_detection](./tow_detection/asm330lhhxg1)
+	* [vehicle_stationary_detection](./vehicle_stationary_detection/asm330lhhxg1)
+* IIS2DULPX
+	* [6d_position_recognition](./6d_position_recognition/iis2dulpx)
+	* [vibration_monitoring](./vibration_monitoring/iis2dulpx)
+* IIS2ICLX
+	* [tilt_angle](./tilt_angle/iis2iclx)
+	* [tilt_angle_dual_plane](./tilt_angle_dual_plane/iis2iclx)
+* ISM330BX
+	* [6d_position_recognition](./6d_position_recognition/ism330bx)
+	* [vibration_monitoring](./vibration_monitoring/ism330bx)
+* ISM330DHCX
+	* [6d_position_recognition](./6d_position_recognition/ism330dhcx)
+	* [motion_intensity](./motion_intensity/ism330dhcx)
+	* [vehicle_stationary_detection](./vehicle_stationary_detection/ism330dhcx)
+	* [vibration_monitoring](./vibration_monitoring/ism330dhcx)
+* LIS2DUX12
+	* [6d_position_recognition](./6d_position_recognition/lis2dux12)
+	* [activity_recognition_for_mobile](./activity_recognition_for_mobile/lis2dux12)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lis2dux12)
+	* [asset_tracking](./asset_tracking/lis2dux12)
+	* [motion_intensity](./motion_intensity/lis2dux12)
+	* [vibration_monitoring](./vibration_monitoring/lis2dux12)
+* LIS2DUXS12
+	* [6d_position_recognition](./6d_position_recognition/lis2duxs12)
+	* [activity_recognition_for_mobile](./activity_recognition_for_mobile/lis2duxs12)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lis2duxs12)
+	* [asset_tracking](./asset_tracking/lis2duxs12)
+	* [motion_intensity](./motion_intensity/lis2duxs12)
+	* [vibration_monitoring](./vibration_monitoring/lis2duxs12)
+* LSM6DSO32X
+	* [6d_position_recognition](./6d_position_recognition/lsm6dso32x)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lsm6dso32x)
+	* [gym_activity_recognition](./gym_activity_recognition/lsm6dso32x)
+	* [motion_intensity](./motion_intensity/lsm6dso32x)
+	* [vibration_monitoring](./vibration_monitoring/lsm6dso32x)
+* LSM6DSOX
+	* [6d_position_recognition](./6d_position_recognition/lsm6dsox)
+	* [activity_recognition_for_mobile](./activity_recognition_for_mobile/lsm6dsox)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lsm6dsox)
+	* [asset_tracking](./asset_tracking/lsm6dsox)
+	* [door_opening_closing_still](./door_opening_closing_still/lsm6dsox)
+	* [gym_activity_recognition](./gym_activity_recognition/lsm6dsox)
+	* [head_gestures](./head_gestures/lsm6dsox)
+	* [motion_intensity](./motion_intensity/lsm6dsox)
+	* [tennis_activity](./tennis_activity/lsm6dsox)
+	* [vehicle_stationary_detection](./vehicle_stationary_detection/lsm6dsox)
+	* [vibration_monitoring](./vibration_monitoring/lsm6dsox)
+	* [yoga_pose_recognition](./yoga_pose_recognition/lsm6dsox)
+* LSM6DSRX
+	* [6d_position_recognition](./6d_position_recognition/lsm6dsrx)
+	* [activity_recognition_for_mobile](./activity_recognition_for_mobile/lsm6dsrx)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lsm6dsrx)
+	* [asset_tracking](./asset_tracking/lsm6dsrx)
+	* [head_gestures](./head_gestures/lsm6dsrx)
+	* [motion_intensity](./motion_intensity/lsm6dsrx)
+	* [vehicle_stationary_detection](./vehicle_stationary_detection/lsm6dsrx)
+	* [vibration_monitoring](./vibration_monitoring/lsm6dsrx)
+* LSM6DSV16BX
+	* [6d_position_recognition](./6d_position_recognition/lsm6dsv16bx)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lsm6dsv16bx)
+	* [head_gestures](./head_gestures/lsm6dsv16bx)
+	* [motion_intensity](./motion_intensity/lsm6dsv16bx)
+	* [vibration_monitoring](./vibration_monitoring/lsm6dsv16bx)
+* LSM6DSV16X
+	* [6d_position_recognition](./6d_position_recognition/lsm6dsv16x)
+	* [activity_recognition_for_mobile](./activity_recognition_for_mobile/lsm6dsv16x)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lsm6dsv16x)
+	* [asset_tracking](./asset_tracking/lsm6dsv16x)
+	* [door_opening_closing_still](./door_opening_closing_still/lsm6dsv16x)
+	* [gym_activity_recognition](./gym_activity_recognition/lsm6dsv16x)
+	* [head_gestures](./head_gestures/lsm6dsv16x)
+	* [motion_intensity](./motion_intensity/lsm6dsv16x)
+	* [vibration_monitoring](./vibration_monitoring/lsm6dsv16x)
+	* [yoga_pose_recognition](./yoga_pose_recognition/lsm6dsv16x)
+* LSM6DSV320X
+	* [6d_position_recognition](./6d_position_recognition/lsm6dsv320x)
+	* [activity_recognition_for_mobile](./activity_recognition_for_mobile/lsm6dsv320x)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lsm6dsv320x)
+	* [asset_tracking](./asset_tracking/lsm6dsv320x)
+	* [door_opening_closing_still](./door_opening_closing_still/lsm6dsv320x)
+	* [gym_activity_recognition](./gym_activity_recognition/lsm6dsv320x)
+	* [head_gestures](./head_gestures/lsm6dsv320x)
+	* [motion_intensity](./motion_intensity/lsm6dsv320x)
+	* [tennis_activity](./tennis_activity/lsm6dsv320x)
+	* [vibration_monitoring](./vibration_monitoring/lsm6dsv320x)
+	* [yoga_pose_recognition](./yoga_pose_recognition/lsm6dsv320x)
+* LSM6DSV32X
+	* [6d_position_recognition](./6d_position_recognition/lsm6dsv32x)
+	* [activity_recognition_for_mobile](./activity_recognition_for_mobile/lsm6dsv32x)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lsm6dsv32x)
+	* [asset_tracking](./asset_tracking/lsm6dsv32x)
+	* [gym_activity_recognition](./gym_activity_recognition/lsm6dsv32x)
+	* [head_gestures](./head_gestures/lsm6dsv32x)
+	* [motion_intensity](./motion_intensity/lsm6dsv32x)
+	* [tennis_activity](./tennis_activity/lsm6dsv32x)
+	* [vibration_monitoring](./vibration_monitoring/lsm6dsv32x)
+* LSM6DSV80X
+	* [6d_position_recognition](./6d_position_recognition/lsm6dsv80x)
+	* [activity_recognition_for_mobile](./activity_recognition_for_mobile/lsm6dsv80x)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/lsm6dsv80x)
+	* [asset_tracking](./asset_tracking/lsm6dsv80x)
+	* [door_opening_closing_still](./door_opening_closing_still/lsm6dsv80x)
+	* [gym_activity_recognition](./gym_activity_recognition/lsm6dsv80x)
+	* [head_gestures](./head_gestures/lsm6dsv80x)
+	* [motion_intensity](./motion_intensity/lsm6dsv80x)
+	* [tennis_activity](./tennis_activity/lsm6dsv80x)
+	* [vibration_monitoring](./vibration_monitoring/lsm6dsv80x)
+	* [yoga_pose_recognition](./yoga_pose_recognition/lsm6dsv80x)
+* ST1VAFE3BX
+	* [6d_position_recognition](./6d_position_recognition/st1vafe3bx)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/st1vafe3bx)
+	* [motion_intensity](./motion_intensity/st1vafe3bx)
+* ST1VAFE6AX
+	* [6d_position_recognition](./6d_position_recognition/st1vafe6ax)
+	* [activity_recognition_for_wrist](./activity_recognition_for_wrist/st1vafe6ax)
+	* [motion_intensity](./motion_intensity/st1vafe6ax)
+
 ------
 
 **More information: [http://www.st.com](http://st.com/MEMS)**
