@@ -54,13 +54,13 @@ The SensorTile.box PRO / STWIN.box board and the [ST BLE Sensor](https://www.st.
 7. Press the `▶ Start` button.
 8. Go to `Machine Learning Core` and see the live results.
 
-### Run the example with SensorTile.box PRO and ST AIoT Craft
+### Run the example with SensorTile.box PRO / STWIN.box and ST AIoT Craft
 
 [ST AIoT Craft](https://staiotcraft.st.com) allows user to import a `.json` configuration file or use one of the already available examples.
 
 1. Open the ST AIoT Craft webpage.
-2. Plug the SensorTile.box PRO to the PC with a USB cable.
-3. The SensorTile.box PRO has to be programmed with the DATALOG2 firmware.
+2. Plug the SensorTile.box PRO / STWIN.box to the PC with a USB cable.
+3. The SensorTile.box PRO / STWIN.box has to be programmed with the DATALOG2 firmware.
     - While pairing your device click on `Update the firmware` link.
     - Choose whether you want to flash from PC or mobile app, and follow the steps.
     - Finally click on the `Flash firmware` button.
