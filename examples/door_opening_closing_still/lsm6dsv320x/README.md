@@ -12,13 +12,12 @@ For information on how to create similar algorithms, please follow the instructi
 
 The gyroscope is configured with ±250 dps full scale and 60 Hz output data rate.
 
-The [STEVAL-MKI109V3](https://www.st.com/en/evaluation-tools/steval-mki109v3.html) with the LSM6DSV320X on DIL24 is placed on the door as shown in the picture below. Other devices can be used as well, provided that the orientation of the sensor axes is correct.
-
+The sensor is placed on the door as shown in the picture below:
 - X-axis parallel to the door, pointing up.
 - Y-axis parallel to the door, pointing to the door hinges.
 - Z-axis pointing towards the direction of the door opening.
 
-![SensorOnDoor](./images/SensorOnDoor.jpg)
+![SensorOnDoor](./images/sensor_on_door.jpg)
 
 ## 3 - Machine learning core configuration
 
@@ -46,4 +45,4 @@ The configuration generates an interrupt (pulsed and active high) on the INT1 pi
 
 **More information: [http://www.st.com](http://st.com/MEMS)**
 
-**Copyright © 2022 STMicroelectronics**
+**Copyright © 2025 STMicroelectronics**

@@ -12,13 +12,12 @@ For information on how to create similar algorithms, please follow the instructi
 
 The gyroscope is configured with ±2000 dps full scale and 52 Hz output data rate.
 
-The [SensorTile.Box](https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mems-motion-sensor-eval-boards/steval-mksbox1v1.html) is placed on the door as shown in the picture below. Other devices can be used as well, provided that the orientation of the sensor axes is correct.
-
+The sensor is placed on the door as shown in the picture below:
 - X-axis parallel to the door, pointing up.
 - Y-axis parallel to the door, pointing to the door hinges.
 - Z-axis pointing towards the direction of the door opening.
 
-![SensorTileBoxOnLeftLeg](./images/SensorTileBoxOnDoor.jpg)
+![SensorOnDoor](./images/sensor_on_door.jpg)
 
 ## 3 - Machine learning core configuration
 
