@@ -1,0 +1,1477 @@
+{
+	"devices": [
+		{
+			"name": "ASM330LHB",
+			"examples": [
+				{
+					"name": "Tow detection",
+					"path": "./tow_detection/asm330lhb",
+					"readme": "./tow_detection/asm330lhb/README.md",
+					"application_readme": "./tow_detection/README.md",
+					"json_configurations": [
+						"./tow_detection/asm330lhb/asm330lhb_tow_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./tow_detection/asm330lhb/asm330lhb_tow_detection.h"
+					]
+				},
+				{
+					"name": "Vehicle stationary detection",
+					"path": "./vehicle_stationary_detection/asm330lhb",
+					"readme": "./vehicle_stationary_detection/asm330lhb/README.md",
+					"application_readme": "./vehicle_stationary_detection/README.md",
+					"json_configurations": [
+						"./vehicle_stationary_detection/asm330lhb/asm330lhb_vehicle_stationary_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./vehicle_stationary_detection/asm330lhb/asm330lhb_vehicle_stationary_detection.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "ASM330LHBG1",
+			"examples": [
+				{
+					"name": "Tow detection",
+					"path": "./tow_detection/asm330lhbg1",
+					"readme": "./tow_detection/asm330lhbg1/README.md",
+					"application_readme": "./tow_detection/README.md",
+					"json_configurations": [
+						"./tow_detection/asm330lhbg1/asm330lhbg1_tow_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./tow_detection/asm330lhbg1/asm330lhbg1_tow_detection.h"
+					]
+				},
+				{
+					"name": "Vehicle stationary detection",
+					"path": "./vehicle_stationary_detection/asm330lhbg1",
+					"readme": "./vehicle_stationary_detection/asm330lhbg1/README.md",
+					"application_readme": "./vehicle_stationary_detection/README.md",
+					"json_configurations": [
+						"./vehicle_stationary_detection/asm330lhbg1/asm330lhbg1_vehicle_stationary_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./vehicle_stationary_detection/asm330lhbg1/asm330lhbg1_vehicle_stationary_detection.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "ASM330LHHX",
+			"examples": [
+				{
+					"name": "Tow detection",
+					"path": "./tow_detection/asm330lhhx",
+					"readme": "./tow_detection/asm330lhhx/README.md",
+					"application_readme": "./tow_detection/README.md",
+					"json_configurations": [
+						"./tow_detection/asm330lhhx/asm330lhhx_tow_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./tow_detection/asm330lhhx/asm330lhhx_tow_detection.h"
+					]
+				},
+				{
+					"name": "Vehicle stationary detection",
+					"path": "./vehicle_stationary_detection/asm330lhhx",
+					"readme": "./vehicle_stationary_detection/asm330lhhx/README.md",
+					"application_readme": "./vehicle_stationary_detection/README.md",
+					"json_configurations": [
+						"./vehicle_stationary_detection/asm330lhhx/asm330lhhx_vehicle_stationary_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./vehicle_stationary_detection/asm330lhhx/asm330lhhx_vehicle_stationary_detection.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "ASM330LHHXG1",
+			"examples": [
+				{
+					"name": "Tow detection",
+					"path": "./tow_detection/asm330lhhxg1",
+					"readme": "./tow_detection/asm330lhhxg1/README.md",
+					"application_readme": "./tow_detection/README.md",
+					"json_configurations": [
+						"./tow_detection/asm330lhhxg1/asm330lhhxg1_tow_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./tow_detection/asm330lhhxg1/asm330lhhxg1_tow_detection.h"
+					]
+				},
+				{
+					"name": "Vehicle stationary detection",
+					"path": "./vehicle_stationary_detection/asm330lhhxg1",
+					"readme": "./vehicle_stationary_detection/asm330lhhxg1/README.md",
+					"application_readme": "./vehicle_stationary_detection/README.md",
+					"json_configurations": [
+						"./vehicle_stationary_detection/asm330lhhxg1/asm330lhhxg1_vehicle_stationary_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./vehicle_stationary_detection/asm330lhhxg1/asm330lhhxg1_vehicle_stationary_detection.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "IIS2DULPX",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/iis2dulpx",
+					"readme": "./6d_position_recognition/iis2dulpx/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/iis2dulpx/iis2dulpx_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/iis2dulpx/iis2dulpx_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Air blower state recognition",
+					"path": "./air_blower_state_recognition/iis2dulpx",
+					"readme": "./air_blower_state_recognition/iis2dulpx/README.md",
+					"application_readme": "./air_blower_state_recognition/README.md",
+					"json_configurations": [
+						"./air_blower_state_recognition/iis2dulpx/iis2dulpx_air_blower_state_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./air_blower_state_recognition/iis2dulpx/iis2dulpx_air_blower_state_recognition.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/iis2dulpx",
+					"readme": "./vibration_monitoring/iis2dulpx/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/iis2dulpx/iis2dulpx_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/iis2dulpx/iis2dulpx_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "IIS2ICLX",
+			"examples": [
+				{
+					"name": "Tilt angle",
+					"path": "./tilt_angle/iis2iclx",
+					"readme": "./tilt_angle/iis2iclx/README.md",
+					"application_readme": "./tilt_angle/README.md",
+					"json_configurations": [
+						"./tilt_angle/iis2iclx/iis2iclx_tilt_angle.json"
+					],
+					"c_header_file_configurations": [
+						"./tilt_angle/iis2iclx/iis2iclx_tilt_angle.h"
+					]
+				},
+				{
+					"name": "Tilt angle dual plane",
+					"path": "./tilt_angle_dual_plane/iis2iclx",
+					"readme": "./tilt_angle_dual_plane/iis2iclx/README.md",
+					"application_readme": "./tilt_angle_dual_plane/README.md",
+					"json_configurations": [
+						"./tilt_angle_dual_plane/iis2iclx/iis2iclx_tilt_angle_dual_plane.json"
+					],
+					"c_header_file_configurations": [
+						"./tilt_angle_dual_plane/iis2iclx/iis2iclx_tilt_angle_dual_plane.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "ISM330BX",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/ism330bx",
+					"readme": "./6d_position_recognition/ism330bx/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/ism330bx/ism330bx_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/ism330bx/ism330bx_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/ism330bx",
+					"readme": "./vibration_monitoring/ism330bx/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/ism330bx/ism330bx_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/ism330bx/ism330bx_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "ISM330DHCX",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/ism330dhcx",
+					"readme": "./6d_position_recognition/ism330dhcx/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/ism330dhcx/ism330dhcx_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/ism330dhcx/ism330dhcx_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/ism330dhcx",
+					"readme": "./motion_intensity/ism330dhcx/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/ism330dhcx/ism330dhcx_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/ism330dhcx/ism330dhcx_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Vehicle stationary detection",
+					"path": "./vehicle_stationary_detection/ism330dhcx",
+					"readme": "./vehicle_stationary_detection/ism330dhcx/README.md",
+					"application_readme": "./vehicle_stationary_detection/README.md",
+					"json_configurations": [
+						"./vehicle_stationary_detection/ism330dhcx/ism330dhcx_vehicle_stationary_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./vehicle_stationary_detection/ism330dhcx/ism330dhcx_vehicle_stationary_detection.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/ism330dhcx",
+					"readme": "./vibration_monitoring/ism330dhcx/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/ism330dhcx/ism330dhcx_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/ism330dhcx/ism330dhcx_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "ISM6HG256X",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/ism6hg256x",
+					"readme": "./6d_position_recognition/ism6hg256x/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/ism6hg256x/ism6hg256x_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/ism6hg256x/ism6hg256x_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/ism6hg256x",
+					"readme": "./asset_tracking/ism6hg256x/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/ism6hg256x/ism6hg256x_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/ism6hg256x/ism6hg256x_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Door opening / closing / still",
+					"path": "./door_opening_closing_still/ism6hg256x",
+					"readme": "./door_opening_closing_still/ism6hg256x/README.md",
+					"application_readme": "./door_opening_closing_still/README.md",
+					"json_configurations": [
+						"./door_opening_closing_still/ism6hg256x/ism6hg256x_door_opening_closing_still.json"
+					],
+					"c_header_file_configurations": [
+						"./door_opening_closing_still/ism6hg256x/ism6hg256x_door_opening_closing_still.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/ism6hg256x",
+					"readme": "./motion_intensity/ism6hg256x/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/ism6hg256x/ism6hg256x_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/ism6hg256x/ism6hg256x_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/ism6hg256x",
+					"readme": "./vibration_monitoring/ism6hg256x/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/ism6hg256x/ism6hg256x_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/ism6hg256x/ism6hg256x_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LIS2DUX12",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lis2dux12",
+					"readme": "./6d_position_recognition/lis2dux12/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lis2dux12/lis2dux12_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lis2dux12/lis2dux12_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for mobile",
+					"path": "./activity_recognition_for_mobile/lis2dux12",
+					"readme": "./activity_recognition_for_mobile/lis2dux12/README.md",
+					"application_readme": "./activity_recognition_for_mobile/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_mobile/lis2dux12/lis2dux12_activity_recognition_for_mobile.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_mobile/lis2dux12/lis2dux12_activity_recognition_for_mobile.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lis2dux12",
+					"readme": "./activity_recognition_for_wrist/lis2dux12/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lis2dux12/lis2dux12_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lis2dux12/lis2dux12_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/lis2dux12",
+					"readme": "./asset_tracking/lis2dux12/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/lis2dux12/lis2dux12_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/lis2dux12/lis2dux12_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lis2dux12",
+					"readme": "./motion_intensity/lis2dux12/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lis2dux12/lis2dux12_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lis2dux12/lis2dux12_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lis2dux12",
+					"readme": "./vibration_monitoring/lis2dux12/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lis2dux12/lis2dux12_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lis2dux12/lis2dux12_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LIS2DUXS12",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lis2duxs12",
+					"readme": "./6d_position_recognition/lis2duxs12/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lis2duxs12/lis2duxs12_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lis2duxs12/lis2duxs12_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for mobile",
+					"path": "./activity_recognition_for_mobile/lis2duxs12",
+					"readme": "./activity_recognition_for_mobile/lis2duxs12/README.md",
+					"application_readme": "./activity_recognition_for_mobile/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_mobile/lis2duxs12/lis2duxs12_activity_recognition_for_mobile.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_mobile/lis2duxs12/lis2duxs12_activity_recognition_for_mobile.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lis2duxs12",
+					"readme": "./activity_recognition_for_wrist/lis2duxs12/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lis2duxs12/lis2duxs12_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lis2duxs12/lis2duxs12_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/lis2duxs12",
+					"readme": "./asset_tracking/lis2duxs12/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/lis2duxs12/lis2duxs12_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/lis2duxs12/lis2duxs12_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lis2duxs12",
+					"readme": "./motion_intensity/lis2duxs12/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lis2duxs12/lis2duxs12_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lis2duxs12/lis2duxs12_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lis2duxs12",
+					"readme": "./vibration_monitoring/lis2duxs12/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lis2duxs12/lis2duxs12_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lis2duxs12/lis2duxs12_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LSM6DSO32X",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lsm6dso32x",
+					"readme": "./6d_position_recognition/lsm6dso32x/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lsm6dso32x/lsm6dso32x_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lsm6dso32x/lsm6dso32x_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lsm6dso32x",
+					"readme": "./activity_recognition_for_wrist/lsm6dso32x/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lsm6dso32x/lsm6dso32x_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lsm6dso32x/lsm6dso32x_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Gym activity recognition",
+					"path": "./gym_activity_recognition/lsm6dso32x",
+					"readme": "./gym_activity_recognition/lsm6dso32x/README.md",
+					"application_readme": "./gym_activity_recognition/README.md",
+					"json_configurations": [
+						"./gym_activity_recognition/lsm6dso32x/lsm6dso32x_gym_activity_recognition_left.json",
+						"./gym_activity_recognition/lsm6dso32x/lsm6dso32x_gym_activity_recognition_right.json"
+					],
+					"c_header_file_configurations": [
+						"./gym_activity_recognition/lsm6dso32x/lsm6dso32x_gym_activity_recognition_left.h",
+						"./gym_activity_recognition/lsm6dso32x/lsm6dso32x_gym_activity_recognition_right.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lsm6dso32x",
+					"readme": "./motion_intensity/lsm6dso32x/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lsm6dso32x/lsm6dso32x_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lsm6dso32x/lsm6dso32x_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lsm6dso32x",
+					"readme": "./vibration_monitoring/lsm6dso32x/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lsm6dso32x/lsm6dso32x_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lsm6dso32x/lsm6dso32x_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LSM6DSOX",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lsm6dsox",
+					"readme": "./6d_position_recognition/lsm6dsox/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lsm6dsox/lsm6dsox_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lsm6dsox/lsm6dsox_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for mobile",
+					"path": "./activity_recognition_for_mobile/lsm6dsox",
+					"readme": "./activity_recognition_for_mobile/lsm6dsox/README.md",
+					"application_readme": "./activity_recognition_for_mobile/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsox/lsm6dsox_activity_recognition_for_mobile.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsox/lsm6dsox_activity_recognition_for_mobile.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lsm6dsox",
+					"readme": "./activity_recognition_for_wrist/lsm6dsox/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsox/lsm6dsox_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsox/lsm6dsox_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/lsm6dsox",
+					"readme": "./asset_tracking/lsm6dsox/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/lsm6dsox/lsm6dsox_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/lsm6dsox/lsm6dsox_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Door opening / closing / still",
+					"path": "./door_opening_closing_still/lsm6dsox",
+					"readme": "./door_opening_closing_still/lsm6dsox/README.md",
+					"application_readme": "./door_opening_closing_still/README.md",
+					"json_configurations": [
+						"./door_opening_closing_still/lsm6dsox/lsm6dsox_door_opening_closing_still.json"
+					],
+					"c_header_file_configurations": [
+						"./door_opening_closing_still/lsm6dsox/lsm6dsox_door_opening_closing_still.h"
+					]
+				},
+				{
+					"name": "Gym activity recognition",
+					"path": "./gym_activity_recognition/lsm6dsox",
+					"readme": "./gym_activity_recognition/lsm6dsox/README.md",
+					"application_readme": "./gym_activity_recognition/README.md",
+					"json_configurations": [
+						"./gym_activity_recognition/lsm6dsox/lsm6dsox_gym_activity_recognition_left.json",
+						"./gym_activity_recognition/lsm6dsox/lsm6dsox_gym_activity_recognition_right.json"
+					],
+					"c_header_file_configurations": [
+						"./gym_activity_recognition/lsm6dsox/lsm6dsox_gym_activity_recognition_left.h",
+						"./gym_activity_recognition/lsm6dsox/lsm6dsox_gym_activity_recognition_right.h"
+					]
+				},
+				{
+					"name": "Head gestures",
+					"path": "./head_gestures/lsm6dsox",
+					"readme": "./head_gestures/lsm6dsox/README.md",
+					"application_readme": "./head_gestures/README.md",
+					"json_configurations": [
+						"./head_gestures/lsm6dsox/lsm6dsox_head_gestures.json"
+					],
+					"c_header_file_configurations": [
+						"./head_gestures/lsm6dsox/lsm6dsox_head_gestures.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lsm6dsox",
+					"readme": "./motion_intensity/lsm6dsox/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lsm6dsox/lsm6dsox_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lsm6dsox/lsm6dsox_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Tennis activity",
+					"path": "./tennis_activity/lsm6dsox",
+					"readme": "./tennis_activity/lsm6dsox/README.md",
+					"application_readme": "./tennis_activity/README.md",
+					"json_configurations": [
+						"./tennis_activity/lsm6dsox/lsm6dsox_tennis_activity.json"
+					],
+					"c_header_file_configurations": [
+						"./tennis_activity/lsm6dsox/lsm6dsox_tennis_activity.h"
+					]
+				},
+				{
+					"name": "Vehicle stationary detection",
+					"path": "./vehicle_stationary_detection/lsm6dsox",
+					"readme": "./vehicle_stationary_detection/lsm6dsox/README.md",
+					"application_readme": "./vehicle_stationary_detection/README.md",
+					"json_configurations": [
+						"./vehicle_stationary_detection/lsm6dsox/lsm6dsox_vehicle_stationary_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./vehicle_stationary_detection/lsm6dsox/lsm6dsox_vehicle_stationary_detection.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lsm6dsox",
+					"readme": "./vibration_monitoring/lsm6dsox/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lsm6dsox/lsm6dsox_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lsm6dsox/lsm6dsox_vibration_monitoring.h"
+					]
+				},
+				{
+					"name": "Yoga pose estimation",
+					"path": "./yoga_pose_recognition/lsm6dsox",
+					"readme": "./yoga_pose_recognition/lsm6dsox/README.md",
+					"application_readme": "./yoga_pose_recognition/README.md",
+					"json_configurations": [
+						"./yoga_pose_recognition/lsm6dsox/lsm6dsox_yoga_pose_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./yoga_pose_recognition/lsm6dsox/lsm6dsox_yoga_pose_recognition.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LSM6DSRX",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lsm6dsrx",
+					"readme": "./6d_position_recognition/lsm6dsrx/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lsm6dsrx/lsm6dsrx_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lsm6dsrx/lsm6dsrx_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for mobile",
+					"path": "./activity_recognition_for_mobile/lsm6dsrx",
+					"readme": "./activity_recognition_for_mobile/lsm6dsrx/README.md",
+					"application_readme": "./activity_recognition_for_mobile/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsrx/lsm6dsrx_activity_recognition_for_mobile.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsrx/lsm6dsrx_activity_recognition_for_mobile.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lsm6dsrx",
+					"readme": "./activity_recognition_for_wrist/lsm6dsrx/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsrx/lsm6dsrx_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsrx/lsm6dsrx_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/lsm6dsrx",
+					"readme": "./asset_tracking/lsm6dsrx/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/lsm6dsrx/lsm6dsrx_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/lsm6dsrx/lsm6dsrx_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Head gestures",
+					"path": "./head_gestures/lsm6dsrx",
+					"readme": "./head_gestures/lsm6dsrx/README.md",
+					"application_readme": "./head_gestures/README.md",
+					"json_configurations": [
+						"./head_gestures/lsm6dsrx/lsm6dsrx_head_gestures.json"
+					],
+					"c_header_file_configurations": [
+						"./head_gestures/lsm6dsrx/lsm6dsrx_head_gestures.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lsm6dsrx",
+					"readme": "./motion_intensity/lsm6dsrx/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lsm6dsrx/lsm6dsrx_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lsm6dsrx/lsm6dsrx_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Vehicle stationary detection",
+					"path": "./vehicle_stationary_detection/lsm6dsrx",
+					"readme": "./vehicle_stationary_detection/lsm6dsrx/README.md",
+					"application_readme": "./vehicle_stationary_detection/README.md",
+					"json_configurations": [
+						"./vehicle_stationary_detection/lsm6dsrx/lsm6dsrx_vehicle_stationary_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./vehicle_stationary_detection/lsm6dsrx/lsm6dsrx_vehicle_stationary_detection.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lsm6dsrx",
+					"readme": "./vibration_monitoring/lsm6dsrx/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lsm6dsrx/lsm6dsrx_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lsm6dsrx/lsm6dsrx_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LSM6DSV16BX",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lsm6dsv16bx",
+					"readme": "./6d_position_recognition/lsm6dsv16bx/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lsm6dsv16bx/lsm6dsv16bx_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lsm6dsv16bx/lsm6dsv16bx_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lsm6dsv16bx",
+					"readme": "./activity_recognition_for_wrist/lsm6dsv16bx/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv16bx/lsm6dsv16bx_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv16bx/lsm6dsv16bx_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Head gestures",
+					"path": "./head_gestures/lsm6dsv16bx",
+					"readme": "./head_gestures/lsm6dsv16bx/README.md",
+					"application_readme": "./head_gestures/README.md",
+					"json_configurations": [
+						"./head_gestures/lsm6dsv16bx/lsm6dsv16bx_head_gestures.json"
+					],
+					"c_header_file_configurations": [
+						"./head_gestures/lsm6dsv16bx/lsm6dsv16bx_head_gestures.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lsm6dsv16bx",
+					"readme": "./motion_intensity/lsm6dsv16bx/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lsm6dsv16bx/lsm6dsv16bx_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lsm6dsv16bx/lsm6dsv16bx_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lsm6dsv16bx",
+					"readme": "./vibration_monitoring/lsm6dsv16bx/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lsm6dsv16bx/lsm6dsv16bx_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lsm6dsv16bx/lsm6dsv16bx_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LSM6DSV16X",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lsm6dsv16x",
+					"readme": "./6d_position_recognition/lsm6dsv16x/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lsm6dsv16x/lsm6dsv16x_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lsm6dsv16x/lsm6dsv16x_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for mobile",
+					"path": "./activity_recognition_for_mobile/lsm6dsv16x",
+					"readme": "./activity_recognition_for_mobile/lsm6dsv16x/README.md",
+					"application_readme": "./activity_recognition_for_mobile/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsv16x/lsm6dsv16x_activity_recognition_for_mobile.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsv16x/lsm6dsv16x_activity_recognition_for_mobile.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lsm6dsv16x",
+					"readme": "./activity_recognition_for_wrist/lsm6dsv16x/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv16x/lsm6dsv16x_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv16x/lsm6dsv16x_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/lsm6dsv16x",
+					"readme": "./asset_tracking/lsm6dsv16x/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/lsm6dsv16x/lsm6dsv16x_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/lsm6dsv16x/lsm6dsv16x_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Door opening / closing / still",
+					"path": "./door_opening_closing_still/lsm6dsv16x",
+					"readme": "./door_opening_closing_still/lsm6dsv16x/README.md",
+					"application_readme": "./door_opening_closing_still/README.md",
+					"json_configurations": [
+						"./door_opening_closing_still/lsm6dsv16x/lsm6dsv16x_door_opening_closing_still.json"
+					],
+					"c_header_file_configurations": [
+						"./door_opening_closing_still/lsm6dsv16x/lsm6dsv16x_door_opening_closing_still.h"
+					]
+				},
+				{
+					"name": "Gym activity recognition",
+					"path": "./gym_activity_recognition/lsm6dsv16x",
+					"readme": "./gym_activity_recognition/lsm6dsv16x/README.md",
+					"application_readme": "./gym_activity_recognition/README.md",
+					"json_configurations": [
+						"./gym_activity_recognition/lsm6dsv16x/lsm6dsv16x_gym_activity_recognition_left.json",
+						"./gym_activity_recognition/lsm6dsv16x/lsm6dsv16x_gym_activity_recognition_right.json"
+					],
+					"c_header_file_configurations": [
+						"./gym_activity_recognition/lsm6dsv16x/lsm6dsv16x_gym_activity_recognition_left.h",
+						"./gym_activity_recognition/lsm6dsv16x/lsm6dsv16x_gym_activity_recognition_right.h"
+					]
+				},
+				{
+					"name": "Head gestures",
+					"path": "./head_gestures/lsm6dsv16x",
+					"readme": "./head_gestures/lsm6dsv16x/README.md",
+					"application_readme": "./head_gestures/README.md",
+					"json_configurations": [
+						"./head_gestures/lsm6dsv16x/lsm6dsv16x_head_gestures.json"
+					],
+					"c_header_file_configurations": [
+						"./head_gestures/lsm6dsv16x/lsm6dsv16x_head_gestures.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lsm6dsv16x",
+					"readme": "./motion_intensity/lsm6dsv16x/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lsm6dsv16x/lsm6dsv16x_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lsm6dsv16x/lsm6dsv16x_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lsm6dsv16x",
+					"readme": "./vibration_monitoring/lsm6dsv16x/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lsm6dsv16x/lsm6dsv16x_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lsm6dsv16x/lsm6dsv16x_vibration_monitoring.h"
+					]
+				},
+				{
+					"name": "Yoga pose estimation",
+					"path": "./yoga_pose_recognition/lsm6dsv16x",
+					"readme": "./yoga_pose_recognition/lsm6dsv16x/README.md",
+					"application_readme": "./yoga_pose_recognition/README.md",
+					"json_configurations": [
+						"./yoga_pose_recognition/lsm6dsv16x/lsm6dsv16x_yoga_pose_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./yoga_pose_recognition/lsm6dsv16x/lsm6dsv16x_yoga_pose_recognition.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LSM6DSV320X",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lsm6dsv320x",
+					"readme": "./6d_position_recognition/lsm6dsv320x/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lsm6dsv320x/lsm6dsv320x_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lsm6dsv320x/lsm6dsv320x_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for mobile",
+					"path": "./activity_recognition_for_mobile/lsm6dsv320x",
+					"readme": "./activity_recognition_for_mobile/lsm6dsv320x/README.md",
+					"application_readme": "./activity_recognition_for_mobile/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsv320x/lsm6dsv320x_activity_recognition_for_mobile.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsv320x/lsm6dsv320x_activity_recognition_for_mobile.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lsm6dsv320x",
+					"readme": "./activity_recognition_for_wrist/lsm6dsv320x/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv320x/lsm6dsv320x_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv320x/lsm6dsv320x_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/lsm6dsv320x",
+					"readme": "./asset_tracking/lsm6dsv320x/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/lsm6dsv320x/lsm6dsv320x_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/lsm6dsv320x/lsm6dsv320x_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Door opening / closing / still",
+					"path": "./door_opening_closing_still/lsm6dsv320x",
+					"readme": "./door_opening_closing_still/lsm6dsv320x/README.md",
+					"application_readme": "./door_opening_closing_still/README.md",
+					"json_configurations": [
+						"./door_opening_closing_still/lsm6dsv320x/lsm6dsv320x_door_opening_closing_still.json"
+					],
+					"c_header_file_configurations": [
+						"./door_opening_closing_still/lsm6dsv320x/lsm6dsv320x_door_opening_closing_still.h"
+					]
+				},
+				{
+					"name": "Gym activity recognition",
+					"path": "./gym_activity_recognition/lsm6dsv320x",
+					"readme": "./gym_activity_recognition/lsm6dsv320x/README.md",
+					"application_readme": "./gym_activity_recognition/README.md",
+					"json_configurations": [
+						"./gym_activity_recognition/lsm6dsv320x/lsm6dsv320x_gym_activity_recognition_left.json",
+						"./gym_activity_recognition/lsm6dsv320x/lsm6dsv320x_gym_activity_recognition_right.json"
+					],
+					"c_header_file_configurations": [
+						"./gym_activity_recognition/lsm6dsv320x/lsm6dsv320x_gym_activity_recognition_left.h",
+						"./gym_activity_recognition/lsm6dsv320x/lsm6dsv320x_gym_activity_recognition_right.h"
+					]
+				},
+				{
+					"name": "Head gestures",
+					"path": "./head_gestures/lsm6dsv320x",
+					"readme": "./head_gestures/lsm6dsv320x/README.md",
+					"application_readme": "./head_gestures/README.md",
+					"json_configurations": [
+						"./head_gestures/lsm6dsv320x/lsm6dsv320x_head_gestures.json"
+					],
+					"c_header_file_configurations": [
+						"./head_gestures/lsm6dsv320x/lsm6dsv320x_head_gestures.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lsm6dsv320x",
+					"readme": "./motion_intensity/lsm6dsv320x/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lsm6dsv320x/lsm6dsv320x_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lsm6dsv320x/lsm6dsv320x_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Tennis activity",
+					"path": "./tennis_activity/lsm6dsv320x",
+					"readme": "./tennis_activity/lsm6dsv320x/README.md",
+					"application_readme": "./tennis_activity/README.md",
+					"json_configurations": [
+						"./tennis_activity/lsm6dsv320x/lsm6dsv320x_tennis_activity.json"
+					],
+					"c_header_file_configurations": [
+						"./tennis_activity/lsm6dsv320x/lsm6dsv320x_tennis_activity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lsm6dsv320x",
+					"readme": "./vibration_monitoring/lsm6dsv320x/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lsm6dsv320x/lsm6dsv320x_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lsm6dsv320x/lsm6dsv320x_vibration_monitoring.h"
+					]
+				},
+				{
+					"name": "Yoga pose estimation",
+					"path": "./yoga_pose_recognition/lsm6dsv320x",
+					"readme": "./yoga_pose_recognition/lsm6dsv320x/README.md",
+					"application_readme": "./yoga_pose_recognition/README.md",
+					"json_configurations": [
+						"./yoga_pose_recognition/lsm6dsv320x/lsm6dsv320x_yoga_pose_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./yoga_pose_recognition/lsm6dsv320x/lsm6dsv320x_yoga_pose_recognition.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LSM6DSV32X",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lsm6dsv32x",
+					"readme": "./6d_position_recognition/lsm6dsv32x/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lsm6dsv32x/lsm6dsv32x_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lsm6dsv32x/lsm6dsv32x_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for mobile",
+					"path": "./activity_recognition_for_mobile/lsm6dsv32x",
+					"readme": "./activity_recognition_for_mobile/lsm6dsv32x/README.md",
+					"application_readme": "./activity_recognition_for_mobile/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsv32x/lsm6dsv32x_activity_recognition_for_mobile.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsv32x/lsm6dsv32x_activity_recognition_for_mobile.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lsm6dsv32x",
+					"readme": "./activity_recognition_for_wrist/lsm6dsv32x/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv32x/lsm6dsv32x_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv32x/lsm6dsv32x_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/lsm6dsv32x",
+					"readme": "./asset_tracking/lsm6dsv32x/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/lsm6dsv32x/lsm6dsv32x_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/lsm6dsv32x/lsm6dsv32x_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Gym activity recognition",
+					"path": "./gym_activity_recognition/lsm6dsv32x",
+					"readme": "./gym_activity_recognition/lsm6dsv32x/README.md",
+					"application_readme": "./gym_activity_recognition/README.md",
+					"json_configurations": [
+						"./gym_activity_recognition/lsm6dsv32x/lsm6dsv32x_gym_activity_recognition_left.json",
+						"./gym_activity_recognition/lsm6dsv32x/lsm6dsv32x_gym_activity_recognition_right.json"
+					],
+					"c_header_file_configurations": [
+						"./gym_activity_recognition/lsm6dsv32x/lsm6dsv32x_gym_activity_recognition_left.h",
+						"./gym_activity_recognition/lsm6dsv32x/lsm6dsv32x_gym_activity_recognition_right.h"
+					]
+				},
+				{
+					"name": "Head gestures",
+					"path": "./head_gestures/lsm6dsv32x",
+					"readme": "./head_gestures/lsm6dsv32x/README.md",
+					"application_readme": "./head_gestures/README.md",
+					"json_configurations": [
+						"./head_gestures/lsm6dsv32x/lsm6dsv32x_head_gestures.json"
+					],
+					"c_header_file_configurations": [
+						"./head_gestures/lsm6dsv32x/lsm6dsv32x_head_gestures.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lsm6dsv32x",
+					"readme": "./motion_intensity/lsm6dsv32x/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lsm6dsv32x/lsm6dsv32x_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lsm6dsv32x/lsm6dsv32x_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Tennis activity",
+					"path": "./tennis_activity/lsm6dsv32x",
+					"readme": "./tennis_activity/lsm6dsv32x/README.md",
+					"application_readme": "./tennis_activity/README.md",
+					"json_configurations": [
+						"./tennis_activity/lsm6dsv32x/lsm6dsv32x_tennis_activity.json"
+					],
+					"c_header_file_configurations": [
+						"./tennis_activity/lsm6dsv32x/lsm6dsv32x_tennis_activity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lsm6dsv32x",
+					"readme": "./vibration_monitoring/lsm6dsv32x/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lsm6dsv32x/lsm6dsv32x_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lsm6dsv32x/lsm6dsv32x_vibration_monitoring.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "LSM6DSV80X",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lsm6dsv80x",
+					"readme": "./6d_position_recognition/lsm6dsv80x/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lsm6dsv80x/lsm6dsv80x_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lsm6dsv80x/lsm6dsv80x_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for mobile",
+					"path": "./activity_recognition_for_mobile/lsm6dsv80x",
+					"readme": "./activity_recognition_for_mobile/lsm6dsv80x/README.md",
+					"application_readme": "./activity_recognition_for_mobile/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsv80x/lsm6dsv80x_activity_recognition_for_mobile.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsv80x/lsm6dsv80x_activity_recognition_for_mobile.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lsm6dsv80x",
+					"readme": "./activity_recognition_for_wrist/lsm6dsv80x/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv80x/lsm6dsv80x_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsv80x/lsm6dsv80x_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/lsm6dsv80x",
+					"readme": "./asset_tracking/lsm6dsv80x/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/lsm6dsv80x/lsm6dsv80x_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/lsm6dsv80x/lsm6dsv80x_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Door opening / closing / still",
+					"path": "./door_opening_closing_still/lsm6dsv80x",
+					"readme": "./door_opening_closing_still/lsm6dsv80x/README.md",
+					"application_readme": "./door_opening_closing_still/README.md",
+					"json_configurations": [
+						"./door_opening_closing_still/lsm6dsv80x/lsm6dsv80x_door_opening_closing_still.json"
+					],
+					"c_header_file_configurations": [
+						"./door_opening_closing_still/lsm6dsv80x/lsm6dsv80x_door_opening_closing_still.h"
+					]
+				},
+				{
+					"name": "Gym activity recognition",
+					"path": "./gym_activity_recognition/lsm6dsv80x",
+					"readme": "./gym_activity_recognition/lsm6dsv80x/README.md",
+					"application_readme": "./gym_activity_recognition/README.md",
+					"json_configurations": [
+						"./gym_activity_recognition/lsm6dsv80x/lsm6dsv80x_gym_activity_recognition_left.json",
+						"./gym_activity_recognition/lsm6dsv80x/lsm6dsv80x_gym_activity_recognition_right.json"
+					],
+					"c_header_file_configurations": [
+						"./gym_activity_recognition/lsm6dsv80x/lsm6dsv80x_gym_activity_recognition_left.h",
+						"./gym_activity_recognition/lsm6dsv80x/lsm6dsv80x_gym_activity_recognition_right.h"
+					]
+				},
+				{
+					"name": "Head gestures",
+					"path": "./head_gestures/lsm6dsv80x",
+					"readme": "./head_gestures/lsm6dsv80x/README.md",
+					"application_readme": "./head_gestures/README.md",
+					"json_configurations": [
+						"./head_gestures/lsm6dsv80x/lsm6dsv80x_head_gestures.json"
+					],
+					"c_header_file_configurations": [
+						"./head_gestures/lsm6dsv80x/lsm6dsv80x_head_gestures.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lsm6dsv80x",
+					"readme": "./motion_intensity/lsm6dsv80x/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lsm6dsv80x/lsm6dsv80x_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lsm6dsv80x/lsm6dsv80x_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Tennis activity",
+					"path": "./tennis_activity/lsm6dsv80x",
+					"readme": "./tennis_activity/lsm6dsv80x/README.md",
+					"application_readme": "./tennis_activity/README.md",
+					"json_configurations": [
+						"./tennis_activity/lsm6dsv80x/lsm6dsv80x_tennis_activity.json"
+					],
+					"c_header_file_configurations": [
+						"./tennis_activity/lsm6dsv80x/lsm6dsv80x_tennis_activity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lsm6dsv80x",
+					"readme": "./vibration_monitoring/lsm6dsv80x/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lsm6dsv80x/lsm6dsv80x_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lsm6dsv80x/lsm6dsv80x_vibration_monitoring.h"
+					]
+				},
+				{
+					"name": "Yoga pose estimation",
+					"path": "./yoga_pose_recognition/lsm6dsv80x",
+					"readme": "./yoga_pose_recognition/lsm6dsv80x/README.md",
+					"application_readme": "./yoga_pose_recognition/README.md",
+					"json_configurations": [
+						"./yoga_pose_recognition/lsm6dsv80x/lsm6dsv80x_yoga_pose_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./yoga_pose_recognition/lsm6dsv80x/lsm6dsv80x_yoga_pose_recognition.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "ST1VAFE3BX",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/st1vafe3bx",
+					"readme": "./6d_position_recognition/st1vafe3bx/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/st1vafe3bx/st1vafe3bx_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/st1vafe3bx/st1vafe3bx_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/st1vafe3bx",
+					"readme": "./activity_recognition_for_wrist/st1vafe3bx/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/st1vafe3bx/st1vafe3bx_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/st1vafe3bx/st1vafe3bx_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/st1vafe3bx",
+					"readme": "./motion_intensity/st1vafe3bx/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/st1vafe3bx/st1vafe3bx_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/st1vafe3bx/st1vafe3bx_motion_intensity.h"
+					]
+				}
+			]
+		},
+		{
+			"name": "ST1VAFE6AX",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/st1vafe6ax",
+					"readme": "./6d_position_recognition/st1vafe6ax/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/st1vafe6ax/st1vafe6ax_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/st1vafe6ax/st1vafe6ax_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/st1vafe6ax",
+					"readme": "./activity_recognition_for_wrist/st1vafe6ax/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/st1vafe6ax/st1vafe6ax_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/st1vafe6ax/st1vafe6ax_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/st1vafe6ax",
+					"readme": "./motion_intensity/st1vafe6ax/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/st1vafe6ax/st1vafe6ax_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/st1vafe6ax/st1vafe6ax_motion_intensity.h"
+					]
+				}
+			]
+		}
+	]
+}
