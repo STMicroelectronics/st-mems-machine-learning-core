@@ -96,6 +96,7 @@ The SensorTile.box PRO / STWIN.box board and the [ST BLE Sensor](https://www.st.
 	* [vehicle_stationary_detection](./vehicle_stationary_detection/asm330lhhxg1)
 * IIS2DULPX
 	* [6d_position_recognition](./6d_position_recognition/iis2dulpx)
+	* [air_blower_state_recognition](./air_blower_state_recognition/iis2dulpx)
 	* [vibration_monitoring](./vibration_monitoring/iis2dulpx)
 * IIS2ICLX
 	* [tilt_angle](./tilt_angle/iis2iclx)
