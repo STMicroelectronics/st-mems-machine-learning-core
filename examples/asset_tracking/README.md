@@ -1,4 +1,4 @@
-## Asset Tracking
+## Asset tracking
 
 The asset tracking algorithm combines MLC and FSM (finite state machine) to detect and track package states (stationary upright, stationary not upright, in motion, shaken) as well as events like impact and free-fall.
 

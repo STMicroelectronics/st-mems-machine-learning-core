@@ -1,4 +1,4 @@
-## Door opening/closing/still
+## Door opening / closing / still
 
 The door activity recognition algorithm is designed for door-mounted devices. It identifies three states: closing, opening, and still.
 
