@@ -12,8 +12,8 @@
   ******************************************************************************
   */
 
-#ifndef LSM6DSOX_SIX_D_POSITION_H
-#define LSM6DSOX_SIX_D_POSITION_H
+#ifndef LSM6DSRX_6D_POSITION_RECOGNITION_H
+#define LSM6DSRX_6D_POSITION_RECOGNITION_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -21,7 +21,7 @@ extern "C" {
 
 #include <stdint.h>
 
-#define LSM6DSOX_SIX_D_POSITION_SENSORS_NUM 1
+#define LSM6DSRX_6D_POSITION_RECOGNITION_SENSORS_NUM 1
 
 #ifndef MEMS_CONF_SHARED_TYPES
 #define MEMS_CONF_SHARED_TYPES
@@ -135,30 +135,30 @@ struct mems_conf_mlc_identifier_list {
 
 #endif /* MEMS_CONF_METADATA_SHARED_TYPES */
 
-static const char *const lsm6dsox_six_d_position_format_version = "2.0";
+static const char *const lsm6dsrx_6d_position_recognition_format_version = "2.0";
 
-static const char *const lsm6dsox_six_d_position_description = NULL;
+static const char *const lsm6dsrx_6d_position_recognition_description = NULL;
 
-static const struct mems_conf_application lsm6dsox_six_d_position_application = {
+static const struct mems_conf_application lsm6dsrx_6d_position_recognition_application = {
     .name = "Configuration Converter Tool",
     .version = "1.0"
 };
 
-static const char *const lsm6dsox_six_d_position_date = NULL;
+static const char *const lsm6dsrx_6d_position_recognition_date = NULL;
 
 /* Sensor names */
 
-static const char *const lsm6dsox_six_d_position_names_0[] = {
-    "LSM6DSOX"
+static const char *const lsm6dsrx_6d_position_recognition_names_0[] = {
+    "LSM6DSRX"
 };
 
-static const struct mems_conf_name_list lsm6dsox_six_d_position_name_lists[LSM6DSOX_SIX_D_POSITION_SENSORS_NUM] = {
-    { .list = lsm6dsox_six_d_position_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsox_six_d_position_names_0) }
+static const struct mems_conf_name_list lsm6dsrx_6d_position_recognition_name_lists[LSM6DSRX_6D_POSITION_RECOGNITION_SENSORS_NUM] = {
+    { .list = lsm6dsrx_6d_position_recognition_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsrx_6d_position_recognition_names_0) }
 };
 
 /* Configurations */
 
-static const struct mems_conf_op lsm6dsox_six_d_position_conf_0[] = {
+static const struct mems_conf_op lsm6dsrx_6d_position_recognition_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x10, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x11, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x80 },
@@ -320,123 +320,76 @@ static const struct mems_conf_op lsm6dsox_six_d_position_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x77 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x78 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x12, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x80 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x17, .data = 0x40 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x7A },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x0D },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xCD },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x7B },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x34 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x7C },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x05 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x7D },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x80 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x02 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x08 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x7E },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xCD },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x7F },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x34 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x80 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x03 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x81 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x81 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x04 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x04 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x08 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x82 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xCD },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x83 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x34 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x84 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x56 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x85 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xE5 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x05 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x0C },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x14 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x0B },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x86 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xCD },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x87 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x34 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x88 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x89 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xA2 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x08 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x08 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x09 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x8A },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xCD },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x8B },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x34 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x8C },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x34 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x8D },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xE4 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x03 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x08 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x10 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x0B },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x8E },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xCD },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x8F },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x34 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x90 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x91 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xA2 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x0C },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x08 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x09 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x92 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xCD },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x93 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x34 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x94 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x95 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xA1 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x0E },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x04 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x09 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x96 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xCD },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x97 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x34 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x98 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x12 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x02, .data = 0x31 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x08, .data = 0x99 },
-    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0xE3 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x01 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x04 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x0C },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x0B },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
+    { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x09, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x80 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x17, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x04, .data = 0x00 },
@@ -455,19 +408,19 @@ static const struct mems_conf_op lsm6dsox_six_d_position_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x00 }
 };
 
-static const struct mems_conf_op_list lsm6dsox_six_d_position_confs[LSM6DSOX_SIX_D_POSITION_SENSORS_NUM] = {
-    { .list = lsm6dsox_six_d_position_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(lsm6dsox_six_d_position_conf_0) }
+static const struct mems_conf_op_list lsm6dsrx_6d_position_recognition_confs[LSM6DSRX_6D_POSITION_RECOGNITION_SENSORS_NUM] = {
+    { .list = lsm6dsrx_6d_position_recognition_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(lsm6dsrx_6d_position_recognition_conf_0) }
 };
 
 /* Outputs */
 
-static const struct mems_conf_output_list lsm6dsox_six_d_position_output_lists[LSM6DSOX_SIX_D_POSITION_SENSORS_NUM] = {
+static const struct mems_conf_output_list lsm6dsrx_6d_position_recognition_output_lists[LSM6DSRX_6D_POSITION_RECOGNITION_SENSORS_NUM] = {
     { .list = NULL, .len = 0 }
 };
 
 /* MLC identifiers */
 
-static const struct mems_conf_mlc_identifier_list lsm6dsox_six_d_position_mlc_identifier_lists[LSM6DSOX_SIX_D_POSITION_SENSORS_NUM] = {
+static const struct mems_conf_mlc_identifier_list lsm6dsrx_6d_position_recognition_mlc_identifier_lists[LSM6DSRX_6D_POSITION_RECOGNITION_SENSORS_NUM] = {
     { .list = NULL, .len = 0 }
 };
 
@@ -475,4 +428,4 @@ static const struct mems_conf_mlc_identifier_list lsm6dsox_six_d_position_mlc_id
 }
 #endif
 
-#endif /* LSM6DSOX_SIX_D_POSITION_H */
+#endif /* LSM6DSRX_6D_POSITION_RECOGNITION_H */

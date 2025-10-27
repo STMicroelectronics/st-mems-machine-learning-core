@@ -12,8 +12,8 @@
   ******************************************************************************
   */
 
-#ifndef TENNIS_ACTIVITY_H
-#define TENNIS_ACTIVITY_H
+#ifndef LSM6DSOX_TENNIS_ACTIVITY_H
+#define LSM6DSOX_TENNIS_ACTIVITY_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -21,7 +21,7 @@ extern "C" {
 
 #include <stdint.h>
 
-#define TENNIS_ACTIVITY_SENSORS_NUM 1
+#define LSM6DSOX_TENNIS_ACTIVITY_SENSORS_NUM 1
 
 #ifndef MEMS_CONF_SHARED_TYPES
 #define MEMS_CONF_SHARED_TYPES
@@ -135,30 +135,30 @@ struct mems_conf_mlc_identifier_list {
 
 #endif /* MEMS_CONF_METADATA_SHARED_TYPES */
 
-static const char *const tennis_activity_format_version = "2.0";
+static const char *const lsm6dsox_tennis_activity_format_version = "2.0";
 
-static const char *const tennis_activity_description = NULL;
+static const char *const lsm6dsox_tennis_activity_description = NULL;
 
-static const struct mems_conf_application tennis_activity_application = {
+static const struct mems_conf_application lsm6dsox_tennis_activity_application = {
     .name = "Configuration Converter Tool",
     .version = "1.0"
 };
 
-static const char *const tennis_activity_date = NULL;
+static const char *const lsm6dsox_tennis_activity_date = NULL;
 
 /* Sensor names */
 
-static const char *const tennis_activity_names_0[] = {
+static const char *const lsm6dsox_tennis_activity_names_0[] = {
     "LSM6DSOX"
 };
 
-static const struct mems_conf_name_list tennis_activity_name_lists[TENNIS_ACTIVITY_SENSORS_NUM] = {
-    { .list = tennis_activity_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(tennis_activity_names_0) }
+static const struct mems_conf_name_list lsm6dsox_tennis_activity_name_lists[LSM6DSOX_TENNIS_ACTIVITY_SENSORS_NUM] = {
+    { .list = lsm6dsox_tennis_activity_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsox_tennis_activity_names_0) }
 };
 
 /* Configurations */
 
-static const struct mems_conf_op tennis_activity_conf_0[] = {
+static const struct mems_conf_op lsm6dsox_tennis_activity_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x10, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x11, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x80 },
@@ -346,13 +346,13 @@ static const struct mems_conf_op tennis_activity_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x11, .data = 0x4C }
 };
 
-static const struct mems_conf_op_list tennis_activity_confs[TENNIS_ACTIVITY_SENSORS_NUM] = {
-    { .list = tennis_activity_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(tennis_activity_conf_0) }
+static const struct mems_conf_op_list lsm6dsox_tennis_activity_confs[LSM6DSOX_TENNIS_ACTIVITY_SENSORS_NUM] = {
+    { .list = lsm6dsox_tennis_activity_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(lsm6dsox_tennis_activity_conf_0) }
 };
 
 /* Outputs */
 
-static const struct mems_conf_result tennis_activity_results_0_0[] = {
+static const struct mems_conf_result lsm6dsox_tennis_activity_results_0_0[] = {
     { .code = 0x00, .label = "backhand" },
     { .code = 0x04, .label = "forehand" },
     { .code = 0x08, .label = "serve" },
@@ -360,7 +360,7 @@ static const struct mems_conf_result tennis_activity_results_0_0[] = {
     { .code = 0x0E, .label = "slice_forehand" }
 };
 
-static const struct mems_conf_output tennis_activity_outputs_0[] = {
+static const struct mems_conf_output lsm6dsox_tennis_activity_outputs_0[] = {
     {
         .name = "DT1",
         .core = MEMS_CONF_OUTPUT_CORE_MLC,
@@ -368,18 +368,18 @@ static const struct mems_conf_output tennis_activity_outputs_0[] = {
         .len = 1,
         .reg_addr = 0x70,
         .reg_name = "MLC0_SRC",
-        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(tennis_activity_results_0_0),
-        .results = tennis_activity_results_0_0
+        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(lsm6dsox_tennis_activity_results_0_0),
+        .results = lsm6dsox_tennis_activity_results_0_0
     }
 };
 
-static const struct mems_conf_output_list tennis_activity_output_lists[TENNIS_ACTIVITY_SENSORS_NUM] = {
-    { .list = tennis_activity_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(tennis_activity_outputs_0) }
+static const struct mems_conf_output_list lsm6dsox_tennis_activity_output_lists[LSM6DSOX_TENNIS_ACTIVITY_SENSORS_NUM] = {
+    { .list = lsm6dsox_tennis_activity_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsox_tennis_activity_outputs_0) }
 };
 
 /* MLC identifiers */
 
-static const struct mems_conf_mlc_identifier_list tennis_activity_mlc_identifier_lists[TENNIS_ACTIVITY_SENSORS_NUM] = {
+static const struct mems_conf_mlc_identifier_list lsm6dsox_tennis_activity_mlc_identifier_lists[LSM6DSOX_TENNIS_ACTIVITY_SENSORS_NUM] = {
     { .list = NULL, .len = 0 }
 };
 
@@ -387,4 +387,4 @@ static const struct mems_conf_mlc_identifier_list tennis_activity_mlc_identifier
 }
 #endif
 
-#endif /* TENNIS_ACTIVITY_H */
+#endif /* LSM6DSOX_TENNIS_ACTIVITY_H */

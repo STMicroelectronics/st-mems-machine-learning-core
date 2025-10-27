@@ -12,8 +12,8 @@
   ******************************************************************************
   */
 
-#ifndef TENNIS_DSV80X_MLC_CONF_H
-#define TENNIS_DSV80X_MLC_CONF_H
+#ifndef LSM6DSV80X_TENNIS_ACTIVITY_MLC_CONF_H
+#define LSM6DSV80X_TENNIS_ACTIVITY_MLC_CONF_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -21,7 +21,7 @@ extern "C" {
 
 #include <stdint.h>
 
-#define TENNIS_DSV80X_MLC_CONF_SENSORS_NUM 1
+#define LSM6DSV80X_TENNIS_ACTIVITY_MLC_CONF_SENSORS_NUM 1
 
 #ifndef MEMS_CONF_SHARED_TYPES
 #define MEMS_CONF_SHARED_TYPES
@@ -135,30 +135,30 @@ struct mems_conf_mlc_identifier_list {
 
 #endif /* MEMS_CONF_METADATA_SHARED_TYPES */
 
-static const char *const tennis_dsv80x_mlc_conf_format_version = "2.0";
+static const char *const lsm6dsv80x_tennis_activity_mlc_conf_format_version = "2.0";
 
-static const char *const tennis_dsv80x_mlc_conf_description = "Generated sensor configuration for MLC core";
+static const char *const lsm6dsv80x_tennis_activity_mlc_conf_description = "Generated sensor configuration for MLC core";
 
-static const struct mems_conf_application tennis_dsv80x_mlc_conf_application = {
+static const struct mems_conf_application lsm6dsv80x_tennis_activity_mlc_conf_application = {
 	.name = "MLC Tool",
 	.version = "2.3.0"
 };
 
-static const char *const tennis_dsv80x_mlc_conf_date = NULL;
+static const char *const lsm6dsv80x_tennis_activity_mlc_conf_date = NULL;
 
 /* Sensor names */
 
-static const char *const tennis_dsv80x_mlc_conf_names_0[] = {
+static const char *const lsm6dsv80x_tennis_activity_mlc_conf_names_0[] = {
 	"LSM6DSV80X"
 };
 
-static const struct mems_conf_name_list tennis_dsv80x_mlc_conf_name_lists[TENNIS_DSV80X_MLC_CONF_SENSORS_NUM] = {
-	{ .list = tennis_dsv80x_mlc_conf_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(tennis_dsv80x_mlc_conf_names_0) }
+static const struct mems_conf_name_list lsm6dsv80x_tennis_activity_mlc_conf_name_lists[LSM6DSV80X_TENNIS_ACTIVITY_MLC_CONF_SENSORS_NUM] = {
+	{ .list = lsm6dsv80x_tennis_activity_mlc_conf_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_tennis_activity_mlc_conf_names_0) }
 };
 
 /* Configurations */
 
-static const struct mems_conf_op tennis_dsv80x_mlc_conf_conf_0[] = {
+static const struct mems_conf_op lsm6dsv80x_tennis_activity_mlc_conf_conf_0[] = {
 	{ .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x10, .data = 0x00 },
 	{ .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x11, .data = 0x00 },
 	{ .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x80 },
@@ -280,13 +280,13 @@ static const struct mems_conf_op tennis_dsv80x_mlc_conf_conf_0[] = {
 	{ .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x4E, .data = 0x9A }
 };
 
-static const struct mems_conf_op_list tennis_dsv80x_mlc_conf_confs[TENNIS_DSV80X_MLC_CONF_SENSORS_NUM] = {
-	{ .list = tennis_dsv80x_mlc_conf_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(tennis_dsv80x_mlc_conf_conf_0) }
+static const struct mems_conf_op_list lsm6dsv80x_tennis_activity_mlc_conf_confs[LSM6DSV80X_TENNIS_ACTIVITY_MLC_CONF_SENSORS_NUM] = {
+	{ .list = lsm6dsv80x_tennis_activity_mlc_conf_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_tennis_activity_mlc_conf_conf_0) }
 };
 
 /* Outputs */
 
-static const struct mems_conf_result tennis_dsv80x_mlc_conf_results_0_0[] = {
+static const struct mems_conf_result lsm6dsv80x_tennis_activity_mlc_conf_results_0_0[] = {
 	{ .code = 0x00, .label = "no-shot" },
 	{ .code = 0x02, .label = "forehand" },
 	{ .code = 0x04, .label = "backhand" },
@@ -295,7 +295,7 @@ static const struct mems_conf_result tennis_dsv80x_mlc_conf_results_0_0[] = {
 	{ .code = 0x0C, .label = "serve" }
 };
 
-static const struct mems_conf_output tennis_dsv80x_mlc_conf_outputs_0[] = {
+static const struct mems_conf_output lsm6dsv80x_tennis_activity_mlc_conf_outputs_0[] = {
 	{
 		.name = "Categorical output",
 		.core = MEMS_CONF_OUTPUT_CORE_MLC,
@@ -303,18 +303,18 @@ static const struct mems_conf_output tennis_dsv80x_mlc_conf_outputs_0[] = {
 		.len = 1,
 		.reg_addr = 0x70,
 		.reg_name = "MLC1_SRC",
-		.num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(tennis_dsv80x_mlc_conf_results_0_0),
-		.results = tennis_dsv80x_mlc_conf_results_0_0
+		.num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_tennis_activity_mlc_conf_results_0_0),
+		.results = lsm6dsv80x_tennis_activity_mlc_conf_results_0_0
 	}
 };
 
-static const struct mems_conf_output_list tennis_dsv80x_mlc_conf_output_lists[TENNIS_DSV80X_MLC_CONF_SENSORS_NUM] = {
-	{ .list = tennis_dsv80x_mlc_conf_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(tennis_dsv80x_mlc_conf_outputs_0) }
+static const struct mems_conf_output_list lsm6dsv80x_tennis_activity_mlc_conf_output_lists[LSM6DSV80X_TENNIS_ACTIVITY_MLC_CONF_SENSORS_NUM] = {
+	{ .list = lsm6dsv80x_tennis_activity_mlc_conf_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_tennis_activity_mlc_conf_outputs_0) }
 };
 
 /* MLC identifiers */
 
-static const struct mems_conf_mlc_identifier tennis_dsv80x_mlc_conf_mlc_identifiers_0[] = {
+static const struct mems_conf_mlc_identifier lsm6dsv80x_tennis_activity_mlc_conf_mlc_identifiers_0[] = {
 	{ .fifo_tag = 0x1C, .id = 0x0394, .label = "F1_MEAN_ACCHG_Z" },
 	{ .fifo_tag = 0x1C, .id = 0x0396, .label = "F2_MEAN_GYR_Y" },
 	{ .fifo_tag = 0x1C, .id = 0x0398, .label = "F3_MEAN_GYR_X" },
@@ -322,12 +322,12 @@ static const struct mems_conf_mlc_identifier tennis_dsv80x_mlc_conf_mlc_identifi
 	{ .fifo_tag = 0x1C, .id = 0x039C, .label = "F5_MINIMUM_ACCHG_V" }
 };
 
-static const struct mems_conf_mlc_identifier_list tennis_dsv80x_mlc_conf_mlc_identifier_lists[TENNIS_DSV80X_MLC_CONF_SENSORS_NUM] = {
-	{ .list = tennis_dsv80x_mlc_conf_mlc_identifiers_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(tennis_dsv80x_mlc_conf_mlc_identifiers_0) }
+static const struct mems_conf_mlc_identifier_list lsm6dsv80x_tennis_activity_mlc_conf_mlc_identifier_lists[LSM6DSV80X_TENNIS_ACTIVITY_MLC_CONF_SENSORS_NUM] = {
+	{ .list = lsm6dsv80x_tennis_activity_mlc_conf_mlc_identifiers_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_tennis_activity_mlc_conf_mlc_identifiers_0) }
 };
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* TENNIS_DSV80X_MLC_CONF_H */
+#endif /* LSM6DSV80X_TENNIS_ACTIVITY_MLC_CONF_H */

@@ -12,8 +12,8 @@
   ******************************************************************************
   */
 
-#ifndef ISM6HG256X_OPEN_CLOSE_DOOR_H
-#define ISM6HG256X_OPEN_CLOSE_DOOR_H
+#ifndef LSM6DSV16X_DOOR_OPENING_CLOSING_STILL_H
+#define LSM6DSV16X_DOOR_OPENING_CLOSING_STILL_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -21,7 +21,7 @@ extern "C" {
 
 #include <stdint.h>
 
-#define ISM6HG256X_OPEN_CLOSE_DOOR_SENSORS_NUM 1
+#define LSM6DSV16X_DOOR_OPENING_CLOSING_STILL_SENSORS_NUM 1
 
 #ifndef MEMS_CONF_SHARED_TYPES
 #define MEMS_CONF_SHARED_TYPES
@@ -135,30 +135,30 @@ struct mems_conf_mlc_identifier_list {
 
 #endif /* MEMS_CONF_METADATA_SHARED_TYPES */
 
-static const char *const ism6hg256x_open_close_door_format_version = "2.0";
+static const char *const lsm6dsv16x_door_opening_closing_still_format_version = "2.0";
 
-static const char *const ism6hg256x_open_close_door_description = NULL;
+static const char *const lsm6dsv16x_door_opening_closing_still_description = NULL;
 
-static const struct mems_conf_application ism6hg256x_open_close_door_application = {
+static const struct mems_conf_application lsm6dsv16x_door_opening_closing_still_application = {
     .name = "Configuration Converter Tool",
     .version = "1.0"
 };
 
-static const char *const ism6hg256x_open_close_door_date = NULL;
+static const char *const lsm6dsv16x_door_opening_closing_still_date = NULL;
 
 /* Sensor names */
 
-static const char *const ism6hg256x_open_close_door_names_0[] = {
-    "ISM6HG256X"
+static const char *const lsm6dsv16x_door_opening_closing_still_names_0[] = {
+    "LSM6DSV16X"
 };
 
-static const struct mems_conf_name_list ism6hg256x_open_close_door_name_lists[ISM6HG256X_OPEN_CLOSE_DOOR_SENSORS_NUM] = {
-    { .list = ism6hg256x_open_close_door_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(ism6hg256x_open_close_door_names_0) }
+static const struct mems_conf_name_list lsm6dsv16x_door_opening_closing_still_name_lists[LSM6DSV16X_DOOR_OPENING_CLOSING_STILL_SENSORS_NUM] = {
+    { .list = lsm6dsv16x_door_opening_closing_still_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_door_opening_closing_still_names_0) }
 };
 
 /* Configurations */
 
-static const struct mems_conf_op ism6hg256x_open_close_door_conf_0[] = {
+static const struct mems_conf_op lsm6dsv16x_door_opening_closing_still_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x10, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x11, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x80 },
@@ -242,19 +242,19 @@ static const struct mems_conf_op ism6hg256x_open_close_door_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x11, .data = 0x05 }
 };
 
-static const struct mems_conf_op_list ism6hg256x_open_close_door_confs[ISM6HG256X_OPEN_CLOSE_DOOR_SENSORS_NUM] = {
-    { .list = ism6hg256x_open_close_door_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(ism6hg256x_open_close_door_conf_0) }
+static const struct mems_conf_op_list lsm6dsv16x_door_opening_closing_still_confs[LSM6DSV16X_DOOR_OPENING_CLOSING_STILL_SENSORS_NUM] = {
+    { .list = lsm6dsv16x_door_opening_closing_still_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_door_opening_closing_still_conf_0) }
 };
 
 /* Outputs */
 
-static const struct mems_conf_result ism6hg256x_open_close_door_results_0_0[] = {
+static const struct mems_conf_result lsm6dsv16x_door_opening_closing_still_results_0_0[] = {
     { .code = 0x00, .label = "close" },
     { .code = 0x04, .label = "open" },
     { .code = 0x08, .label = "still" }
 };
 
-static const struct mems_conf_output ism6hg256x_open_close_door_outputs_0[] = {
+static const struct mems_conf_output lsm6dsv16x_door_opening_closing_still_outputs_0[] = {
     {
         .name = "DT1",
         .core = MEMS_CONF_OUTPUT_CORE_MLC,
@@ -262,27 +262,27 @@ static const struct mems_conf_output ism6hg256x_open_close_door_outputs_0[] = {
         .len = 1,
         .reg_addr = 0x70,
         .reg_name = "MLC1_SRC",
-        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(ism6hg256x_open_close_door_results_0_0),
-        .results = ism6hg256x_open_close_door_results_0_0
+        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_door_opening_closing_still_results_0_0),
+        .results = lsm6dsv16x_door_opening_closing_still_results_0_0
     }
 };
 
-static const struct mems_conf_output_list ism6hg256x_open_close_door_output_lists[ISM6HG256X_OPEN_CLOSE_DOOR_SENSORS_NUM] = {
-    { .list = ism6hg256x_open_close_door_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(ism6hg256x_open_close_door_outputs_0) }
+static const struct mems_conf_output_list lsm6dsv16x_door_opening_closing_still_output_lists[LSM6DSV16X_DOOR_OPENING_CLOSING_STILL_SENSORS_NUM] = {
+    { .list = lsm6dsv16x_door_opening_closing_still_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_door_opening_closing_still_outputs_0) }
 };
 
 /* MLC identifiers */
 
-static const struct mems_conf_mlc_identifier ism6hg256x_open_close_door_mlc_identifiers_0[] = {
+static const struct mems_conf_mlc_identifier lsm6dsv16x_door_opening_closing_still_mlc_identifiers_0[] = {
     { .fifo_tag = 0x1C, .id = 0x0230, .label = "F1_MEAN_on_GY_X" }
 };
 
-static const struct mems_conf_mlc_identifier_list ism6hg256x_open_close_door_mlc_identifier_lists[ISM6HG256X_OPEN_CLOSE_DOOR_SENSORS_NUM] = {
-    { .list = ism6hg256x_open_close_door_mlc_identifiers_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(ism6hg256x_open_close_door_mlc_identifiers_0) }
+static const struct mems_conf_mlc_identifier_list lsm6dsv16x_door_opening_closing_still_mlc_identifier_lists[LSM6DSV16X_DOOR_OPENING_CLOSING_STILL_SENSORS_NUM] = {
+    { .list = lsm6dsv16x_door_opening_closing_still_mlc_identifiers_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_door_opening_closing_still_mlc_identifiers_0) }
 };
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* ISM6HG256X_OPEN_CLOSE_DOOR_H */
+#endif /* LSM6DSV16X_DOOR_OPENING_CLOSING_STILL_H */

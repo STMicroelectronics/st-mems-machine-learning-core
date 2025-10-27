@@ -12,8 +12,8 @@
   ******************************************************************************
   */
 
-#ifndef ASM330LHBG1_TOW_H
-#define ASM330LHBG1_TOW_H
+#ifndef ASM330LHB_TOW_DETECTION_H
+#define ASM330LHB_TOW_DETECTION_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -21,7 +21,7 @@ extern "C" {
 
 #include <stdint.h>
 
-#define ASM330LHBG1_TOW_SENSORS_NUM 1
+#define ASM330LHB_TOW_DETECTION_SENSORS_NUM 1
 
 #ifndef MEMS_CONF_SHARED_TYPES
 #define MEMS_CONF_SHARED_TYPES
@@ -135,30 +135,30 @@ struct mems_conf_mlc_identifier_list {
 
 #endif /* MEMS_CONF_METADATA_SHARED_TYPES */
 
-static const char *const asm330lhbg1_tow_format_version = "2.0";
+static const char *const asm330lhb_tow_detection_format_version = "2.0";
 
-static const char *const asm330lhbg1_tow_description = NULL;
+static const char *const asm330lhb_tow_detection_description = NULL;
 
-static const struct mems_conf_application asm330lhbg1_tow_application = {
+static const struct mems_conf_application asm330lhb_tow_detection_application = {
     .name = "Configuration Converter Tool",
     .version = "1.0"
 };
 
-static const char *const asm330lhbg1_tow_date = NULL;
+static const char *const asm330lhb_tow_detection_date = NULL;
 
 /* Sensor names */
 
-static const char *const asm330lhbg1_tow_names_0[] = {
-    "ASM330LHBG1"
+static const char *const asm330lhb_tow_detection_names_0[] = {
+    "ASM330LHB"
 };
 
-static const struct mems_conf_name_list asm330lhbg1_tow_name_lists[ASM330LHBG1_TOW_SENSORS_NUM] = {
-    { .list = asm330lhbg1_tow_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(asm330lhbg1_tow_names_0) }
+static const struct mems_conf_name_list asm330lhb_tow_detection_name_lists[ASM330LHB_TOW_DETECTION_SENSORS_NUM] = {
+    { .list = asm330lhb_tow_detection_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(asm330lhb_tow_detection_names_0) }
 };
 
 /* Configurations */
 
-static const struct mems_conf_op asm330lhbg1_tow_conf_0[] = {
+static const struct mems_conf_op asm330lhb_tow_detection_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x10, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x11, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x80 },
@@ -492,31 +492,31 @@ static const struct mems_conf_op asm330lhbg1_tow_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x00 }
 };
 
-static const struct mems_conf_op_list asm330lhbg1_tow_confs[ASM330LHBG1_TOW_SENSORS_NUM] = {
-    { .list = asm330lhbg1_tow_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(asm330lhbg1_tow_conf_0) }
+static const struct mems_conf_op_list asm330lhb_tow_detection_confs[ASM330LHB_TOW_DETECTION_SENSORS_NUM] = {
+    { .list = asm330lhb_tow_detection_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(asm330lhb_tow_detection_conf_0) }
 };
 
 /* Outputs */
 
-static const struct mems_conf_result asm330lhbg1_tow_results_0_0[] = {
+static const struct mems_conf_result asm330lhb_tow_detection_results_0_0[] = {
     { .code = 0x00, .label = "NoMotion" },
     { .code = 0x04, .label = "Towing" },
     { .code = 0x08, .label = "Towing2" }
 };
 
-static const struct mems_conf_result asm330lhbg1_tow_results_0_1[] = {
+static const struct mems_conf_result asm330lhb_tow_detection_results_0_1[] = {
     { .code = 0x00, .label = "NoMotionY" },
     { .code = 0x04, .label = "TowingY" },
     { .code = 0x08, .label = "Towing2Y" }
 };
 
-static const struct mems_conf_result asm330lhbg1_tow_results_0_2[] = {
+static const struct mems_conf_result asm330lhb_tow_detection_results_0_2[] = {
     { .code = 0x00, .label = "NoMotionZ" },
     { .code = 0x04, .label = "TowingZ" },
     { .code = 0x08, .label = "Towing2Z" }
 };
 
-static const struct mems_conf_output asm330lhbg1_tow_outputs_0[] = {
+static const struct mems_conf_output asm330lhb_tow_detection_outputs_0[] = {
     {
         .name = "Decision tree #1: ",
         .core = MEMS_CONF_OUTPUT_CORE_MLC,
@@ -524,8 +524,8 @@ static const struct mems_conf_output asm330lhbg1_tow_outputs_0[] = {
         .len = 1,
         .reg_addr = 0x70,
         .reg_name = "MLC0_SRC",
-        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(asm330lhbg1_tow_results_0_0),
-        .results = asm330lhbg1_tow_results_0_0
+        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(asm330lhb_tow_detection_results_0_0),
+        .results = asm330lhb_tow_detection_results_0_0
     },
     {
         .name = "Decision tree #2: ",
@@ -534,8 +534,8 @@ static const struct mems_conf_output asm330lhbg1_tow_outputs_0[] = {
         .len = 1,
         .reg_addr = 0x71,
         .reg_name = "MLC1_SRC",
-        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(asm330lhbg1_tow_results_0_1),
-        .results = asm330lhbg1_tow_results_0_1
+        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(asm330lhb_tow_detection_results_0_1),
+        .results = asm330lhb_tow_detection_results_0_1
     },
     {
         .name = "Decision tree #3: ",
@@ -544,18 +544,18 @@ static const struct mems_conf_output asm330lhbg1_tow_outputs_0[] = {
         .len = 1,
         .reg_addr = 0x72,
         .reg_name = "MLC2_SRC",
-        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(asm330lhbg1_tow_results_0_2),
-        .results = asm330lhbg1_tow_results_0_2
+        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(asm330lhb_tow_detection_results_0_2),
+        .results = asm330lhb_tow_detection_results_0_2
     }
 };
 
-static const struct mems_conf_output_list asm330lhbg1_tow_output_lists[ASM330LHBG1_TOW_SENSORS_NUM] = {
-    { .list = asm330lhbg1_tow_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(asm330lhbg1_tow_outputs_0) }
+static const struct mems_conf_output_list asm330lhb_tow_detection_output_lists[ASM330LHB_TOW_DETECTION_SENSORS_NUM] = {
+    { .list = asm330lhb_tow_detection_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(asm330lhb_tow_detection_outputs_0) }
 };
 
 /* MLC identifiers */
 
-static const struct mems_conf_mlc_identifier_list asm330lhbg1_tow_mlc_identifier_lists[ASM330LHBG1_TOW_SENSORS_NUM] = {
+static const struct mems_conf_mlc_identifier_list asm330lhb_tow_detection_mlc_identifier_lists[ASM330LHB_TOW_DETECTION_SENSORS_NUM] = {
     { .list = NULL, .len = 0 }
 };
 
@@ -563,4 +563,4 @@ static const struct mems_conf_mlc_identifier_list asm330lhbg1_tow_mlc_identifier
 }
 #endif
 
-#endif /* ASM330LHBG1_TOW_H */
+#endif /* ASM330LHB_TOW_DETECTION_H */

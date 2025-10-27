@@ -12,8 +12,8 @@
   ******************************************************************************
   */
 
-#ifndef LSM6DSV80X_SIX_D_POSITION_H
-#define LSM6DSV80X_SIX_D_POSITION_H
+#ifndef LSM6DSV16X_6D_POSITION_RECOGNITION_H
+#define LSM6DSV16X_6D_POSITION_RECOGNITION_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -21,7 +21,7 @@ extern "C" {
 
 #include <stdint.h>
 
-#define LSM6DSV80X_SIX_D_POSITION_SENSORS_NUM 1
+#define LSM6DSV16X_6D_POSITION_RECOGNITION_SENSORS_NUM 1
 
 #ifndef MEMS_CONF_SHARED_TYPES
 #define MEMS_CONF_SHARED_TYPES
@@ -135,30 +135,30 @@ struct mems_conf_mlc_identifier_list {
 
 #endif /* MEMS_CONF_METADATA_SHARED_TYPES */
 
-static const char *const lsm6dsv80x_six_d_position_format_version = "2.0";
+static const char *const lsm6dsv16x_6d_position_recognition_format_version = "2.0";
 
-static const char *const lsm6dsv80x_six_d_position_description = NULL;
+static const char *const lsm6dsv16x_6d_position_recognition_description = NULL;
 
-static const struct mems_conf_application lsm6dsv80x_six_d_position_application = {
+static const struct mems_conf_application lsm6dsv16x_6d_position_recognition_application = {
     .name = "Configuration Converter Tool",
     .version = "1.0"
 };
 
-static const char *const lsm6dsv80x_six_d_position_date = NULL;
+static const char *const lsm6dsv16x_6d_position_recognition_date = NULL;
 
 /* Sensor names */
 
-static const char *const lsm6dsv80x_six_d_position_names_0[] = {
-    "LSM6DSV80X"
+static const char *const lsm6dsv16x_6d_position_recognition_names_0[] = {
+    "LSM6DSV16X"
 };
 
-static const struct mems_conf_name_list lsm6dsv80x_six_d_position_name_lists[LSM6DSV80X_SIX_D_POSITION_SENSORS_NUM] = {
-    { .list = lsm6dsv80x_six_d_position_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_six_d_position_names_0) }
+static const struct mems_conf_name_list lsm6dsv16x_6d_position_recognition_name_lists[LSM6DSV16X_6D_POSITION_RECOGNITION_SENSORS_NUM] = {
+    { .list = lsm6dsv16x_6d_position_recognition_names_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_6d_position_recognition_names_0) }
 };
 
 /* Configurations */
 
-static const struct mems_conf_op lsm6dsv80x_six_d_position_conf_0[] = {
+static const struct mems_conf_op lsm6dsv16x_6d_position_recognition_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x10, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x11, .data = 0x00 },
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x01, .data = 0x80 },
@@ -282,13 +282,13 @@ static const struct mems_conf_op lsm6dsv80x_six_d_position_conf_0[] = {
     { .type = MEMS_CONF_OP_TYPE_WRITE, .address = 0x11, .data = 0x00 }
 };
 
-static const struct mems_conf_op_list lsm6dsv80x_six_d_position_confs[LSM6DSV80X_SIX_D_POSITION_SENSORS_NUM] = {
-    { .list = lsm6dsv80x_six_d_position_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_six_d_position_conf_0) }
+static const struct mems_conf_op_list lsm6dsv16x_6d_position_recognition_confs[LSM6DSV16X_6D_POSITION_RECOGNITION_SENSORS_NUM] = {
+    { .list = lsm6dsv16x_6d_position_recognition_conf_0, .len = (uint32_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_6d_position_recognition_conf_0) }
 };
 
 /* Outputs */
 
-static const struct mems_conf_result lsm6dsv80x_six_d_position_results_0_0[] = {
+static const struct mems_conf_result lsm6dsv16x_6d_position_recognition_results_0_0[] = {
     { .code = 0x00, .label = "None" },
     { .code = 0x01, .label = "X_up" },
     { .code = 0x02, .label = "X_down" },
@@ -298,7 +298,7 @@ static const struct mems_conf_result lsm6dsv80x_six_d_position_results_0_0[] = {
     { .code = 0x06, .label = "Z_down" }
 };
 
-static const struct mems_conf_output lsm6dsv80x_six_d_position_outputs_0[] = {
+static const struct mems_conf_output lsm6dsv16x_6d_position_recognition_outputs_0[] = {
     {
         .name = "DT1",
         .core = MEMS_CONF_OUTPUT_CORE_MLC,
@@ -306,18 +306,18 @@ static const struct mems_conf_output lsm6dsv80x_six_d_position_outputs_0[] = {
         .len = 1,
         .reg_addr = 0x70,
         .reg_name = "MLC1_SRC",
-        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_six_d_position_results_0_0),
-        .results = lsm6dsv80x_six_d_position_results_0_0
+        .num_results = (uint8_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_6d_position_recognition_results_0_0),
+        .results = lsm6dsv16x_6d_position_recognition_results_0_0
     }
 };
 
-static const struct mems_conf_output_list lsm6dsv80x_six_d_position_output_lists[LSM6DSV80X_SIX_D_POSITION_SENSORS_NUM] = {
-    { .list = lsm6dsv80x_six_d_position_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_six_d_position_outputs_0) }
+static const struct mems_conf_output_list lsm6dsv16x_6d_position_recognition_output_lists[LSM6DSV16X_6D_POSITION_RECOGNITION_SENSORS_NUM] = {
+    { .list = lsm6dsv16x_6d_position_recognition_outputs_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_6d_position_recognition_outputs_0) }
 };
 
 /* MLC identifiers */
 
-static const struct mems_conf_mlc_identifier lsm6dsv80x_six_d_position_mlc_identifiers_0[] = {
+static const struct mems_conf_mlc_identifier lsm6dsv16x_6d_position_recognition_mlc_identifiers_0[] = {
     { .fifo_tag = 0x1C, .id = 0x0382, .label = "F1_ABS_MEAN_on_ACC_X" },
     { .fifo_tag = 0x1C, .id = 0x0384, .label = "F2_ABS_MEAN_on_ACC_Y" },
     { .fifo_tag = 0x1C, .id = 0x0386, .label = "F3_ABS_MEAN_on_ACC_Z" },
@@ -326,12 +326,12 @@ static const struct mems_conf_mlc_identifier lsm6dsv80x_six_d_position_mlc_ident
     { .fifo_tag = 0x1C, .id = 0x038C, .label = "F6_MEAN_on_ACC_Z" }
 };
 
-static const struct mems_conf_mlc_identifier_list lsm6dsv80x_six_d_position_mlc_identifier_lists[LSM6DSV80X_SIX_D_POSITION_SENSORS_NUM] = {
-    { .list = lsm6dsv80x_six_d_position_mlc_identifiers_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv80x_six_d_position_mlc_identifiers_0) }
+static const struct mems_conf_mlc_identifier_list lsm6dsv16x_6d_position_recognition_mlc_identifier_lists[LSM6DSV16X_6D_POSITION_RECOGNITION_SENSORS_NUM] = {
+    { .list = lsm6dsv16x_6d_position_recognition_mlc_identifiers_0, .len = (uint16_t)MEMS_CONF_ARRAY_LEN(lsm6dsv16x_6d_position_recognition_mlc_identifiers_0) }
 };
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* LSM6DSV80X_SIX_D_POSITION_H */
+#endif /* LSM6DSV16X_6D_POSITION_RECOGNITION_H */
