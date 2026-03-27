@@ -114,6 +114,7 @@ The SensorTile.box PRO / STWIN.box board and the [ST BLE Sensor](https://www.st.
 	* [asset_tracking](./asset_tracking/ism6hg256x)
 	* [door_opening_closing_still](./door_opening_closing_still/ism6hg256x)
 	* [motion_intensity](./motion_intensity/ism6hg256x)
+	* [nail_gun_detection](./nail_gun_detection/ism6hg256x)
 	* [vibration_monitoring](./vibration_monitoring/ism6hg256x)
 * LIS2DUX12
 	* [6d_position_recognition](./6d_position_recognition/lis2dux12)
@@ -183,6 +184,7 @@ The SensorTile.box PRO / STWIN.box board and the [ST BLE Sensor](https://www.st.
 	* [gym_activity_recognition](./gym_activity_recognition/lsm6dsv320x)
 	* [head_gestures](./head_gestures/lsm6dsv320x)
 	* [motion_intensity](./motion_intensity/lsm6dsv320x)
+	* [nail_gun_detection](./nail_gun_detection/lsm6dsv320x)
 	* [tennis_activity](./tennis_activity/lsm6dsv320x)
 	* [vibration_monitoring](./vibration_monitoring/lsm6dsv320x)
 	* [yoga_pose_recognition](./yoga_pose_recognition/lsm6dsv320x)

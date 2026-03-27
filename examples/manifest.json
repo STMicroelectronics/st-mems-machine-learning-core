@@ -320,6 +320,18 @@
 					]
 				},
 				{
+					"name": "Nail gun detection",
+					"path": "./nail_gun_detection/ism6hg256x",
+					"readme": "./nail_gun_detection/ism6hg256x/README.md",
+					"application_readme": "./nail_gun_detection/README.md",
+					"json_configurations": [
+						"./nail_gun_detection/ism6hg256x/ism6hg256x_nail_gun_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./nail_gun_detection/ism6hg256x/ism6hg256x_nail_gun_detection.h"
+					]
+				},
+				{
 					"name": "Vibration monitoring",
 					"path": "./vibration_monitoring/ism6hg256x",
 					"readme": "./vibration_monitoring/ism6hg256x/README.md",
@@ -1097,6 +1109,18 @@
 					],
 					"c_header_file_configurations": [
 						"./motion_intensity/lsm6dsv320x/lsm6dsv320x_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Nail gun detection",
+					"path": "./nail_gun_detection/lsm6dsv320x",
+					"readme": "./nail_gun_detection/lsm6dsv320x/README.md",
+					"application_readme": "./nail_gun_detection/README.md",
+					"json_configurations": [
+						"./nail_gun_detection/lsm6dsv320x/lsm6dsv320x_nail_gun_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./nail_gun_detection/lsm6dsv320x/lsm6dsv320x_nail_gun_detection.h"
 					]
 				},
 				{
