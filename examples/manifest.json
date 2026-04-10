@@ -668,6 +668,18 @@
 					]
 				},
 				{
+					"name": "Sleep detection",
+					"path": "./sleep_detection/lsm6dsox",
+					"readme": "./sleep_detection/lsm6dsox/README.md",
+					"application_readme": "./sleep_detection/README.md",
+					"json_configurations": [
+						"./sleep_detection/lsm6dsox/lsm6dsox_sleep_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./sleep_detection/lsm6dsox/lsm6dsox_sleep_detection.h"
+					]
+				},
+				{
 					"name": "Tennis activity",
 					"path": "./tennis_activity/lsm6dsox",
 					"readme": "./tennis_activity/lsm6dsox/README.md",

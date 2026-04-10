@@ -145,6 +145,7 @@ The SensorTile.box PRO / STWIN.box board and the [ST BLE Sensor](https://www.st.
 	* [gym_activity_recognition](./gym_activity_recognition/lsm6dsox)
 	* [head_gestures](./head_gestures/lsm6dsox)
 	* [motion_intensity](./motion_intensity/lsm6dsox)
+	* [sleep_detection](./sleep_detection/lsm6dsox)
 	* [tennis_activity](./tennis_activity/lsm6dsox)
 	* [vehicle_stationary_detection](./vehicle_stationary_detection/lsm6dsox)
 	* [vibration_monitoring](./vibration_monitoring/lsm6dsox)
