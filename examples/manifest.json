@@ -500,6 +500,157 @@
 			]
 		},
 		{
+			"name": "LSM6DSK320X",
+			"examples": [
+				{
+					"name": "6D position recognition",
+					"path": "./6d_position_recognition/lsm6dsk320x",
+					"readme": "./6d_position_recognition/lsm6dsk320x/README.md",
+					"application_readme": "./6d_position_recognition/README.md",
+					"json_configurations": [
+						"./6d_position_recognition/lsm6dsk320x/lsm6dsk320x_6d_position_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./6d_position_recognition/lsm6dsk320x/lsm6dsk320x_6d_position_recognition.h"
+					]
+				},
+				{
+					"name": "Activity recognition for mobile",
+					"path": "./activity_recognition_for_mobile/lsm6dsk320x",
+					"readme": "./activity_recognition_for_mobile/lsm6dsk320x/README.md",
+					"application_readme": "./activity_recognition_for_mobile/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsk320x/lsm6dsk320x_activity_recognition_for_mobile.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_mobile/lsm6dsk320x/lsm6dsk320x_activity_recognition_for_mobile.h"
+					]
+				},
+				{
+					"name": "Activity recognition for wrist",
+					"path": "./activity_recognition_for_wrist/lsm6dsk320x",
+					"readme": "./activity_recognition_for_wrist/lsm6dsk320x/README.md",
+					"application_readme": "./activity_recognition_for_wrist/README.md",
+					"json_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsk320x/lsm6dsk320x_activity_recognition_for_wrist.json"
+					],
+					"c_header_file_configurations": [
+						"./activity_recognition_for_wrist/lsm6dsk320x/lsm6dsk320x_activity_recognition_for_wrist.h"
+					]
+				},
+				{
+					"name": "Asset tracking",
+					"path": "./asset_tracking/lsm6dsk320x",
+					"readme": "./asset_tracking/lsm6dsk320x/README.md",
+					"application_readme": "./asset_tracking/README.md",
+					"json_configurations": [
+						"./asset_tracking/lsm6dsk320x/lsm6dsk320x_asset_tracking.json"
+					],
+					"c_header_file_configurations": [
+						"./asset_tracking/lsm6dsk320x/lsm6dsk320x_asset_tracking.h"
+					]
+				},
+				{
+					"name": "Door opening / closing / still",
+					"path": "./door_opening_closing_still/lsm6dsk320x",
+					"readme": "./door_opening_closing_still/lsm6dsk320x/README.md",
+					"application_readme": "./door_opening_closing_still/README.md",
+					"json_configurations": [
+						"./door_opening_closing_still/lsm6dsk320x/lsm6dsk320x_door_opening_closing_still.json"
+					],
+					"c_header_file_configurations": [
+						"./door_opening_closing_still/lsm6dsk320x/lsm6dsk320x_door_opening_closing_still.h"
+					]
+				},
+				{
+					"name": "Gym activity recognition",
+					"path": "./gym_activity_recognition/lsm6dsk320x",
+					"readme": "./gym_activity_recognition/lsm6dsk320x/README.md",
+					"application_readme": "./gym_activity_recognition/README.md",
+					"json_configurations": [
+						"./gym_activity_recognition/lsm6dsk320x/lsm6dsk320x_gym_activity_recognition_left.json",
+						"./gym_activity_recognition/lsm6dsk320x/lsm6dsk320x_gym_activity_recognition_right.json"
+					],
+					"c_header_file_configurations": [
+						"./gym_activity_recognition/lsm6dsk320x/lsm6dsk320x_gym_activity_recognition_left.h",
+						"./gym_activity_recognition/lsm6dsk320x/lsm6dsk320x_gym_activity_recognition_right.h"
+					]
+				},
+				{
+					"name": "Head gestures",
+					"path": "./head_gestures/lsm6dsk320x",
+					"readme": "./head_gestures/lsm6dsk320x/README.md",
+					"application_readme": "./head_gestures/README.md",
+					"json_configurations": [
+						"./head_gestures/lsm6dsk320x/lsm6dsk320x_head_gestures.json"
+					],
+					"c_header_file_configurations": [
+						"./head_gestures/lsm6dsk320x/lsm6dsk320x_head_gestures.h"
+					]
+				},
+				{
+					"name": "Motion intensity detection",
+					"path": "./motion_intensity/lsm6dsk320x",
+					"readme": "./motion_intensity/lsm6dsk320x/README.md",
+					"application_readme": "./motion_intensity/README.md",
+					"json_configurations": [
+						"./motion_intensity/lsm6dsk320x/lsm6dsk320x_motion_intensity.json"
+					],
+					"c_header_file_configurations": [
+						"./motion_intensity/lsm6dsk320x/lsm6dsk320x_motion_intensity.h"
+					]
+				},
+				{
+					"name": "Nail gun detection",
+					"path": "./nail_gun_detection/lsm6dsk320x",
+					"readme": "./nail_gun_detection/lsm6dsk320x/README.md",
+					"application_readme": "./nail_gun_detection/README.md",
+					"json_configurations": [
+						"./nail_gun_detection/lsm6dsk320x/lsm6dsk320x_nail_gun_detection.json"
+					],
+					"c_header_file_configurations": [
+						"./nail_gun_detection/lsm6dsk320x/lsm6dsk320x_nail_gun_detection.h"
+					]
+				},
+				{
+					"name": "Tennis activity",
+					"path": "./tennis_activity/lsm6dsk320x",
+					"readme": "./tennis_activity/lsm6dsk320x/README.md",
+					"application_readme": "./tennis_activity/README.md",
+					"json_configurations": [
+						"./tennis_activity/lsm6dsk320x/lsm6dsk320x_tennis_activity.json"
+					],
+					"c_header_file_configurations": [
+						"./tennis_activity/lsm6dsk320x/lsm6dsk320x_tennis_activity.h"
+					]
+				},
+				{
+					"name": "Vibration monitoring",
+					"path": "./vibration_monitoring/lsm6dsk320x",
+					"readme": "./vibration_monitoring/lsm6dsk320x/README.md",
+					"application_readme": "./vibration_monitoring/README.md",
+					"json_configurations": [
+						"./vibration_monitoring/lsm6dsk320x/lsm6dsk320x_vibration_monitoring.json"
+					],
+					"c_header_file_configurations": [
+						"./vibration_monitoring/lsm6dsk320x/lsm6dsk320x_vibration_monitoring.h"
+					]
+				},
+				{
+					"name": "Yoga pose estimation",
+					"path": "./yoga_pose_recognition/lsm6dsk320x",
+					"readme": "./yoga_pose_recognition/lsm6dsk320x/README.md",
+					"application_readme": "./yoga_pose_recognition/README.md",
+					"json_configurations": [
+						"./yoga_pose_recognition/lsm6dsk320x/lsm6dsk320x_yoga_pose_recognition.json"
+					],
+					"c_header_file_configurations": [
+						"./yoga_pose_recognition/lsm6dsk320x/lsm6dsk320x_yoga_pose_recognition.h"
+					]
+				}
+			]
+		},
+		{
 			"name": "LSM6DSO32X",
 			"examples": [
 				{
