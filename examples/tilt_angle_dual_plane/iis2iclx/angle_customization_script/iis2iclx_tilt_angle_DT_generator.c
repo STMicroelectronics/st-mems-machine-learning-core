@@ -245,7 +245,7 @@ int main(int argc, char **argv)
 		/********************************************************/
 		// Print decision tree information
 		fprintf(fp, "\r\nNumber of Leaves  : \t%d\r\n\r\n", MAX_RESULTS);
-		fprintf(fp, "Size of the tree : \t%d ", (((MAX_RESULTS - 1) * 2) + 1));
+		fprintf(fp, "Size of the tree : \t%d\r\n", (((MAX_RESULTS - 1) * 2) + 1));
 
 		printf("Decision Tree (%d/2) has been successfully created\r\n", i + 1);
 
