@@ -134,7 +134,7 @@ int main(int argc, char **argv)
 	// print information about the script configuration - for the MLC Configuration in Unico
 	printf("\r\nNumber of results generated per decision tree: \t\t\t%d\r\n", MAX_RESULTS);
 	printf("Selected range: \t\t\t\t\t\t[-%d, %d] deg\r\n", angle_range, angle_range);
-	printf("Calculated angular sensitivity: \t\t\t\t%f deg/LSB\r\n\r\n", ang_sensitivity);
+	printf("Calculated angular sensitivity: \t\t\t\t%f deg/LSB\r\n\r\n", (double)ang_sensitivity);
 
 	printf("The attribute name used in the decision tree file for feature: \r\n\t1. Feature 1 (F1_MEAN_...): \t\t\t\t\'%s\'\r\n\t2. Feature 2 (F2_MEAN_...): \t\t\t\t\'%s\'\r\n\r\n\r\n", FEATURE_1, FEATURE_2);
 
@@ -203,8 +203,8 @@ int main(int argc, char **argv)
 			strcpy(stmp, FEATURE_2);
 
 		// Print first two lines of the decision tree
-		fprintf(fp, "%s <= %0.6f: %d\r\n", stmp, threshold_arr[0], result_arr[0]);
-		fprintf(fp, "%s > %0.6f\r\n", stmp, threshold_arr[0]);
+		fprintf(fp, "%s <= %0.6f: %d\r\n", stmp, (double)threshold_arr[0], result_arr[0]);
+		fprintf(fp, "%s > %0.6f\r\n", stmp, (double)threshold_arr[0]);
 
 		// Print the rest of the decision tree
 		for (depth = 1; depth <= (MAX_RESULTS - 2); depth++)
@@ -227,16 +227,16 @@ int main(int argc, char **argv)
 
 				if (depth >= (MAX_RESULTS - 2))
 				{
-					fprintf(fp, "%s%s <= %0.6f: %d\r\n", space_buffer, stmp, threshold_arr[depth], result_arr[depth]);
-					fprintf(fp, "%s%s > %0.6f: %d\r\n", space_buffer, stmp, threshold_arr[depth], result_arr[depth + 1]);
+					fprintf(fp, "%s%s <= %0.6f: %d\r\n", space_buffer, stmp, (double)threshold_arr[depth], result_arr[depth]);
+					fprintf(fp, "%s%s > %0.6f: %d\r\n", space_buffer, stmp, (double)threshold_arr[depth], result_arr[depth + 1]);
 					break;
 				}
 				else
 				{
 					if (j == 0)
-						fprintf(fp, "%s%s <= %0.6f: %d\r\n", space_buffer, stmp, threshold_arr[depth], result_arr[depth]);
+						fprintf(fp, "%s%s <= %0.6f: %d\r\n", space_buffer, stmp, (double)threshold_arr[depth], result_arr[depth]);
 					else
-						fprintf(fp, "%s%s > %0.6f\r\n", space_buffer, stmp, threshold_arr[depth]);
+						fprintf(fp, "%s%s > %0.6f\r\n", space_buffer, stmp, (double)threshold_arr[depth]);
 				}
 			}
 		}
