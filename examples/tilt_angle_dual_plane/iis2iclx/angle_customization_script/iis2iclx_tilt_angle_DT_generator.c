@@ -70,7 +70,7 @@ STMicroelectronics 2021\r\n"
 
 #define MAX_FOLDER_NAME_LEN 64 		// for folder name definition
 #define MAX_STRING_LEN 1024 		// for output buffer
-#define MAX_SPACE_LEN (128 * 4)		// four chars "|   "
+#define MAX_SPACE_LEN (256 * 4)		// four chars "|   "
 
 #define FEATURE_1 "mean_x" 	// define the attribute name of the MLC feature 1 (F1_MEAN_on_ACC_X) used in the decision tree text file
 #define FEATURE_2 "mean_y" 	// define the attribute name of the MLC feature 2 (F1_MEAN_on_ACC_Y) used in the decision tree text file
@@ -120,11 +120,11 @@ int main(int argc, char **argv)
 
 	float threshold_arr[MAX_RESULTS]; 	// Threshold array has only MAX_RESULTS-1 useful values (the last one is out of range)
 	uint8_t result_arr[MAX_RESULTS];
-	char stmp[75];						// Temporary string for labels used in the x and y axis cycle
+	char stmp[MAX_FOLDER_NAME_LEN + 10 + 1];	// Temporary string for labels used in the x and y axis cycle
 
 	angle_range = DEFAULT_ANGLE_RANGE;
-	memset(folder_name, '\0', MAX_FOLDER_NAME_LEN);
-	strcpy(folder_name, DEFAULT_FOLDER);
+	memset(folder_name, '\0', MAX_FOLDER_NAME_LEN + 1);
+	strncpy(folder_name, DEFAULT_FOLDER, MAX_FOLDER_NAME_LEN);
 
 	// set parameters based on the input arguments of the program
 	process_args(argc, argv, &angle_range, folder_name);
@@ -170,8 +170,7 @@ int main(int argc, char **argv)
 
 	/********************************************************/
 	// Make a folder for decision tree text files
-	// memset(stmp, 0 , sizeof(stmp));
-	sprintf(stmp,"./%s", folder_name);
+	snprintf(stmp, MAX_FOLDER_NAME_LEN + 10 + 1, "./%s", folder_name);
 
 	status = mkdir(stmp, S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH);
 
@@ -184,7 +183,7 @@ int main(int argc, char **argv)
 	// Create two decision trees: for x and y axis
 	for (i = 0; i < 2; i++)
 	{
-		sprintf(stmp,"./%s/DT%d.txt", folder_name, i + 1);
+		snprintf(stmp, MAX_FOLDER_NAME_LEN + 10 + 1, "./%s/DT%d.txt", folder_name, i + 1);
 
 		// open/create a file
 		printf("Opening/creating the data file \"%s\"...\r\n", stmp);
@@ -198,9 +197,11 @@ int main(int argc, char **argv)
 
 		// Define the attribute name of the used MLC feature (MEAN)
 		if (i == 0)
-			strcpy(stmp, FEATURE_1);
+			strncpy(stmp, FEATURE_1, MAX_FOLDER_NAME_LEN + 10);
 		else
-			strcpy(stmp, FEATURE_2);
+			strncpy(stmp, FEATURE_2, MAX_FOLDER_NAME_LEN + 10);
+
+		stmp[MAX_FOLDER_NAME_LEN + 10] = '\0';
 
 		// Print first two lines of the decision tree
 		fprintf(fp, "%s <= %0.6f: %d\r\n", stmp, (double)threshold_arr[0], result_arr[0]);
@@ -219,8 +220,8 @@ int main(int argc, char **argv)
 			// Print two lines of the decision tree in required format
 			for (j = 0; j < 2; j++)
 			{
-				memset(out_buffer, 0 , sizeof(out_buffer));
-				memset(space_buffer, 0 , sizeof(space_buffer));
+				memset(out_buffer, 0, sizeof(out_buffer));
+				memset(space_buffer, 0, sizeof(space_buffer));
 
 				// Set indentation based on the depth
 				indent(space_buffer, depth);
@@ -248,7 +249,7 @@ int main(int argc, char **argv)
 
 		printf("Decision Tree (%d/2) has been successfully created\r\n", i + 1);
 
-		sprintf(stmp,"./%s/DT%d.txt", folder_name, i + 1);
+		snprintf(stmp, MAX_FOLDER_NAME_LEN + 10 + 1, "./%s/DT%d.txt", folder_name, i + 1);
 		printf("Closing the file \"%s\"...\r\n\r\n", stmp);
 		fclose(fp);
 	}
@@ -265,7 +266,7 @@ static void indent(char *str, uint16_t depth)
 	uint16_t i;
 
 	for (i = 0; i < depth; i++)
-		strcat(str, separator);
+		strncat(str, separator, MAX_SPACE_LEN - strlen(str));
 }
 
 // Process any input arguments of the program
@@ -276,7 +277,6 @@ static void process_args(int argc, char **argv, uint8_t *angle_range, char *fold
 	uint8_t err_flag, err_occured;
 
 	err_flag = ERR_NONE;
-	angle_range_tmp = 0;
 	err_occured = 0;
 
 	// get all arguments
@@ -325,8 +325,8 @@ static void process_args(int argc, char **argv, uint8_t *angle_range, char *fold
 				// check that the input argument is valid
 				if (is_valid(NAME, optarg, strlen(optarg)) != 0)
 				{
-					memset(folder_name, '\0', MAX_FOLDER_NAME_LEN);
-					strcpy(folder_name, optarg);
+					memset(folder_name, '\0', MAX_FOLDER_NAME_LEN + 1);
+					strncpy(folder_name, optarg, MAX_FOLDER_NAME_LEN);
 				}
 				else
 				{
