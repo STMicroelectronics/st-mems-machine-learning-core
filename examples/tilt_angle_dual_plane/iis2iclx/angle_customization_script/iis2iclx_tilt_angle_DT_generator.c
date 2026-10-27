@@ -114,9 +114,9 @@ int main(int argc, char **argv)
 	uint8_t angle_range;
 	float ang_sensitivity;
 
-	char folder_name[MAX_FOLDER_NAME_LEN];
-	char out_buffer[MAX_STRING_LEN];
-	char space_buffer[MAX_SPACE_LEN];
+	char folder_name[MAX_FOLDER_NAME_LEN + 1];
+	char out_buffer[MAX_STRING_LEN + 1];
+	char space_buffer[MAX_SPACE_LEN + 1];
 
 	float threshold_arr[MAX_RESULTS]; 	// Threshold array has only MAX_RESULTS-1 useful values (the last one is out of range)
 	uint8_t result_arr[MAX_RESULTS];
